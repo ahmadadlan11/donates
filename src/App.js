@@ -30,6 +30,8 @@ import {
 } from "@material-ui/pickers";
 import { Redirect, useHistory } from "react-router-dom";
 import CustomInput from "./App/Components/input";
+import { upperCircle, bottomCircle } from "./App/assets/BackGrounds";
+import Logo from "./App/assets/logo.png";
 const qs = require("query-string");
 
 // const [responseHooks, setResponse] = useState();
@@ -415,16 +417,22 @@ class DataForm extends React.Component {
 
 const App = () => {
   return (
-    <div
-      className="bg-gray-900 w-screen h-screen flex flex-col
-    justify-center items-center gap-5"
-    >
-      <div className="font-bold text-white">LOGO</div>
-      <div
-        className="w-64 h-64 bg-white shadow-md
-      rounded-lg  py-5 px-1 hover:shadow-xl"
-      >
-        <CustomInput placeholder="Card number" />
+    <div className="bg-background h-screen flex justify-center items-center">
+      {upperCircle}
+      {bottomCircle}
+      <div className="bg-white shadow-lg flex justify-between rounded-lg w-2/3 h-screen/2">
+        <div className="bg-white rounded-lg">
+          <CustomInput />
+        </div>
+        <div className="bg-orang bg-opacity-75 w-2/3 rounded-r-lg flex flex-col items-center py-10 gap-10 px-10">
+          <img src={Logo} className="w-32" />
+          <p className="font-semibold text-white text-lg">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea omnis
+            temporibus fuga <br /> suscipit sed accusamus nobis totam debitis,
+            dolorem possimus dicta nemo deserunt,
+            <br /> excepturi vero, neque quibusdam error dolore sunt?
+          </p>
+        </div>
       </div>
     </div>
   );
