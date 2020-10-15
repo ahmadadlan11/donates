@@ -14,11 +14,15 @@ const CustomInput = ({
   const [value, setValue] = useState("");
   const [, toggleError] = useContext(ErrorContext);
   const [error, setError] = useState(false);
+  const setValueFuction = (value) => {
+    setValue(value);
+    returndValue(value);
+  };
   useEffect(() => {
     if (calander) {
       window.addEventListener("keydown", (event) => {
         if (event.key == "Backspace") {
-          setValue("");
+          setValueFuction("");
         }
       });
     }
@@ -28,14 +32,17 @@ const CustomInput = ({
     if (isNaN(value) && !calander) {
       toggleError("Invalid input");
       return;
-    } else setValue(value);
+    } else setValueFuction(value);
 
     if (minLength && value.length < minLength) {
       setError(true);
     } else setError(false);
 
     if (calander) {
-      value.length === 4 ? setValue(value + "/") : setValue(value);
+      isNaN(value) && value.length < 4 && toggleError("Invalid input");
+      value.length === 4
+        ? setValueFuction(value + "/")
+        : setValueFuction(value);
     }
   };
   return (

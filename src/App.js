@@ -37,6 +37,7 @@ import { lock, user, calender } from "./App/assets/icons";
 import { ErrorContext } from "./App/Store/ErrorProvider";
 import Desktop from "./App/Screens/Desktop";
 import Mobile from "./App/Screens/Mobile";
+import { keyContext } from "./App/Store/KeyProvider";
 
 const qs = require("query-string");
 
@@ -422,12 +423,24 @@ class DataForm extends React.Component {
 // export default DataForm;
 
 const App = () => {
-  const [error] = useContext(ErrorContext);
+  const [error, setError] = useContext(ErrorContext);
+  const [, setKey] = useContext(keyContext);
+
+  const generateIPin = (pin, key) => {
+    console.log("the key is: ", key);
+    let id = uuid.v4();
+    let jsencrypt = new JSencrypt();
+    jsencrypt.setPublicKey(key);
+    let data = jsencrypt.encrypt(id + pin);
+    console.log("the private key encrypted is: ", data);
+    return [data, id];
+  };
   return (
     <div className="bg-background h-screen flex justify-center items-center">
       <div
-        className={`absolute z-10 w-screen h-12 bg-yellow-600 top-0 shadow-lg flex items-center justify-center font-semibold text-white text-xl ${
-          error.error ? "visible" : "invisible"
+        className={`transform duration-500  absolute z-10 w-screen h-12 bg-yellow-600 top-0 shadow-lg flex items-center 
+        justify-center font-semibold text-white text-xl ${
+          error.error ? "translate-y-0" : "-translate-y-12 shadow-none"
         } `}
       >
         {error.message}

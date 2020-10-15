@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { ThemeProvider } from "@material-ui/core/styles";
 import App from "./App";
-import ErrorProvider from "./App/Store/ErrorProvider";
+import Store from "./App/Store/";
 import theme from "./theme";
 import Details from "./details";
 import Divider from "@material-ui/core/Divider";
@@ -21,8 +21,8 @@ ReactDOM.render(
   //   <LocalRouter />
   //   {/* <App  /> */}
   // </ThemeProvider>
-  <ErrorProvider>
+  <Store>
     <App />
-  </ErrorProvider>,
+  </Store>,
   document.querySelector("#root")
 );
