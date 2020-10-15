@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         background: "#F6F6F6",
         orang: "#EE3C38",
+        fontColor1: "#E41C31",
+        buttonFrom: "#EC3620",
+        buttonTo: "#E32624",
       },
       height: (theme) => ({
         "screen/2": "50vh",

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
@@ -31,7 +31,13 @@ import {
 import { Redirect, useHistory } from "react-router-dom";
 import CustomInput from "./App/Components/input";
 import { upperCircle, bottomCircle } from "./App/assets/BackGrounds";
+import SOLUSPAY from "./App/assets/SOLUSPAY";
 import Logo from "./App/assets/logo.png";
+import { lock, user, calender } from "./App/assets/icons";
+import { ErrorContext } from "./App/Store/ErrorProvider";
+import Desktop from "./App/Screens/Desktop";
+import Mobile from "./App/Screens/Mobile";
+
 const qs = require("query-string");
 
 // const [responseHooks, setResponse] = useState();
@@ -416,24 +422,20 @@ class DataForm extends React.Component {
 // export default DataForm;
 
 const App = () => {
+  const [error] = useContext(ErrorContext);
   return (
     <div className="bg-background h-screen flex justify-center items-center">
+      <div
+        className={`absolute z-10 w-screen h-12 bg-yellow-600 top-0 shadow-lg flex items-center justify-center font-semibold text-white text-xl ${
+          error.error ? "visible" : "invisible"
+        } `}
+      >
+        {error.message}
+      </div>
       {upperCircle}
       {bottomCircle}
-      <div className="bg-white shadow-lg flex justify-between rounded-lg w-2/3 h-screen/2">
-        <div className="bg-white rounded-lg">
-          <CustomInput />
-        </div>
-        <div className="bg-orang bg-opacity-75 w-2/3 rounded-r-lg flex flex-col items-center py-10 gap-10 px-10">
-          <img src={Logo} className="w-32" />
-          <p className="font-semibold text-white text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea omnis
-            temporibus fuga <br /> suscipit sed accusamus nobis totam debitis,
-            dolorem possimus dicta nemo deserunt,
-            <br /> excepturi vero, neque quibusdam error dolore sunt?
-          </p>
-        </div>
-      </div>
+      <Desktop />
+      <Mobile />
     </div>
   );
 };
