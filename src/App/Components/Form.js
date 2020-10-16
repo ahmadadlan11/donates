@@ -12,9 +12,9 @@ const Form = () => {
   const [key, setKey] = useContext(keyContext);
   const [, toggleError] = useContext(ErrorContext);
   const [, toggleLoading] = useContext(LoadingContext);
-  const [PAN, setPAN] = useState("33333333333333333333333333");
-  const [PIN, setPIN] = useState("234");
-  const [expDate, setexpDate] = useState("2342/234");
+  const [PAN, setPAN] = useState("");
+  const [PIN, setPIN] = useState("");
+  const [expDate, setexpDate] = useState("");
 
   const params = qs.parse(window.location.search);
 
