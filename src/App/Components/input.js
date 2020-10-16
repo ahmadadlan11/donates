@@ -21,7 +21,7 @@ const CustomInput = ({
   useEffect(() => {
     if (calander) {
       window.addEventListener("keydown", (event) => {
-        if (event.key == "Backspace") {
+        if (event.key === "Backspace") {
           setValueFuction("");
         }
       });
@@ -30,7 +30,7 @@ const CustomInput = ({
 
   const validation = (value) => {
     if (isNaN(value) && !calander) {
-      toggleError("Invalid input");
+      toggleError("Invalid input", "warning");
       return;
     } else setValueFuction(value);
 
@@ -39,7 +39,9 @@ const CustomInput = ({
     } else setError(false);
 
     if (calander) {
-      isNaN(value) && value.length < 4 && toggleError("Invalid input");
+      isNaN(value) &&
+        value.length < 4 &&
+        toggleError("Invalid input", "warning");
       value.length === 4
         ? setValueFuction(value + "/")
         : setValueFuction(value);

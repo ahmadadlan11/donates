@@ -1,13 +1,9 @@
-import React, { useState, useEffect, useContext } from "react";
+import React from "react";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import Link from "@material-ui/core/Link";
-import ProTip from "./ProTip";
 import FormGroup from "@material-ui/core/FormGroup";
 import { Input, InputLabel, TextField } from "@material-ui/core";
-import Select from "@material-ui/core/Select";
-import FormHelperText from "@material-ui/core/FormControl";
 import uuid from "uuid";
 import JSencrypt from "jsencrypt";
 
@@ -20,7 +16,6 @@ import PaymentIcon from "@material-ui/icons/Payment";
 import CancelIcon from "@material-ui/icons/Cancel";
 import MomentUtils from "@date-io/moment";
 import moment from "@date-io/moment";
-import NativeSelect from "@material-ui/core/NativeSelect";
 
 import { Button } from "@material-ui/core";
 import {
@@ -28,16 +23,11 @@ import {
   KeyboardTimePicker,
   KeyboardDatePicker,
 } from "@material-ui/pickers";
-import { Redirect, useHistory } from "react-router-dom";
-import CustomInput from "./App/Components/input";
 import { upperCircle, bottomCircle } from "./App/assets/BackGrounds";
-import SOLUSPAY from "./App/assets/SOLUSPAY";
-import Logo from "./App/assets/logo.png";
-import { lock, user, calender } from "./App/assets/icons";
-import { ErrorContext } from "./App/Store/ErrorProvider";
-import Desktop from "./App/Screens/Desktop";
-import Mobile from "./App/Screens/Mobile";
-import { keyContext } from "./App/Store/KeyProvider";
+import { loadingState } from "./App/assets/icons";
+import Home from "./App/Screens/Home";
+import Errors from "./App/Components/Errors";
+import Loading from "./App/Components/Loading";
 
 const qs = require("query-string");
 
@@ -423,32 +413,15 @@ class DataForm extends React.Component {
 // export default DataForm;
 
 const App = () => {
-  const [error, setError] = useContext(ErrorContext);
-  const [, setKey] = useContext(keyContext);
+  console.log("%c%s", "color: #aa00ff", "app re-render");
 
-  const generateIPin = (pin, key) => {
-    console.log("the key is: ", key);
-    let id = uuid.v4();
-    let jsencrypt = new JSencrypt();
-    jsencrypt.setPublicKey(key);
-    let data = jsencrypt.encrypt(id + pin);
-    console.log("the private key encrypted is: ", data);
-    return [data, id];
-  };
   return (
     <div className="bg-background h-screen flex justify-center items-center">
-      <div
-        className={`transform duration-500  absolute z-10 w-screen h-12 bg-yellow-600 top-0 shadow-lg flex items-center 
-        justify-center font-semibold text-white text-xl ${
-          error.error ? "translate-y-0" : "-translate-y-12 shadow-none"
-        } `}
-      >
-        {error.message}
-      </div>
+      <Errors />
+      <Loading />
       {upperCircle}
       {bottomCircle}
-      <Desktop />
-      <Mobile />
+      <Home />
     </div>
   );
 };

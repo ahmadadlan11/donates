@@ -17,6 +17,7 @@
     "clsx": "latest",
     "jsencrypt": "^3.0.0-rc.1",
     "moment": "^2.24.0",
+    "query-string": "^6.13.5",
     "react": "latest",
     "react-dom": "latest",
     "react-moment": "^0.9.7",

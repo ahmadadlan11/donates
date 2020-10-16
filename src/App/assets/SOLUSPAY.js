@@ -1,7 +1,7 @@
 import React from "react";
 
 const SOLUSPAY = (
-  <svg className="w-48 h-8">
+  <svg className="w-40 h-8">
     <text
       id="SOLUSPAY"
       transform="translate(0 22)"

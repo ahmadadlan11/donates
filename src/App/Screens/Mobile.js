@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import SOLUSPAY from "../assets/SOLUSPAY";
 import Form from "../Components/Form";
-
+//!deprecated
 const Mobile = () => {
   return (
     <div className=" lg:hidden z-50 relative bg-white rounded-lg w-2/3 shadow-lg">
