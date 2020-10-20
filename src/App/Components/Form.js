@@ -91,10 +91,10 @@ const Form = () => {
       toggleLoading(false);
       return;
     }
-    const error = qs.parse(results.url).code;
-    if (error) {
+    const error = qs.parse(results.url.split("?")[1]);
+    if (error.fail) {
       toggleLoading(false);
-      toggleError(error, "error");
+      toggleError(error.code, "error");
       return;
     } else toggleError("i think its success", "success");
     toggleLoading(false);
