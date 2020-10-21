@@ -12,9 +12,9 @@ const Form = () => {
   const [key, setKey] = useContext(keyContext);
   const [, toggleError] = useContext(ErrorContext);
   const [, toggleLoading] = useContext(LoadingContext);
-  const [PAN, setPAN] = useState("");
-  const [PIN, setPIN] = useState("");
-  const [expDate, setexpDate] = useState("");
+  const [PAN, setPAN] = useState("2222222222323232");
+  const [PIN, setPIN] = useState("1331");
+  const [expDate, setexpDate] = useState("1231/23");
 
   const params = qs.parse(window.location.search);
 
@@ -126,11 +126,15 @@ const Form = () => {
         returndValue={(value) => setexpDate(value)}
       />
       <button
+        type="submit"
         className={`transition duration-500 w-64 ${
           (isValidate && "bg-buttonTo") || "bg-gray-500"
         }   h-12 rounded-lg  text-white flex items-center justify-center font-semibold
         hover:shadow-lg`}
-        onClick={() => handleSubmit()}
+        onClick={() => {
+          handleSubmit();
+          // document.location = "js://webview?arg1=111&args2=222";
+        }}
         disabled={!isValidate}
       >
         {(key && "Submit") || loadingState()}
