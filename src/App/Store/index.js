@@ -1,14 +1,14 @@
 import React from "react";
 import ErrorProvider from "./ErrorProvider";
-import KeyProvider from "./KeyProvider";
 import LoadingProvider from "./LoadingProvider";
+import ModalProvider from "./ModalProvider";
 
 const Store = ({ children }) => {
   return (
     <ErrorProvider>
-      <KeyProvider>
+      <ModalProvider>
         <LoadingProvider>{children}</LoadingProvider>
-      </KeyProvider>
+      </ModalProvider>
     </ErrorProvider>
   );
 };

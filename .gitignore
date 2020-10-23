@@ -22,6 +22,9 @@
 .env.test.local
 .env.production.local
 
+#style
+/src/App/style/App.css
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

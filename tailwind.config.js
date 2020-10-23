@@ -12,13 +12,12 @@ module.exports = {
         fontColor1: "#E41C31",
         buttonFrom: "#EC3620",
         buttonTo: "#E32624",
+        oranges: {
+          light: "#e45320",
+          deep: "#e54a1f",
+          deeper: "#e41c31",
+        },
       },
-      height: (theme) => ({
-        "screen/2": "50vh",
-        "screen/3": "calc(100vh / 3)",
-        "screen/4": "calc(100vh / 4)",
-        "screen/5": "calc(100vh / 5)",
-      }),
     },
   },
   variants: {},

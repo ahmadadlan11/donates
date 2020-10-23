@@ -10,19 +10,11 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@date-io/moment": "^1.3.13",
-    "@material-ui/core": "latest",
-    "@material-ui/icons": "^4.5.1",
-    "@material-ui/pickers": "^3.2.8",
-    "clsx": "latest",
-    "jsencrypt": "^3.0.0-rc.1",
-    "moment": "^2.24.0",
-    "query-string": "^6.13.5",
     "react": "latest",
     "react-dom": "latest",
-    "react-moment": "^0.9.7",
-    "react-router-dom": "^5.1.2",
     "react-scripts": "latest",
+    "query-string": "^6.13.5",
+    "jsencrypt": "^3.0.0-rc.1",
     "uuid": "^3.3.3"
   },
   "browserslist": {
