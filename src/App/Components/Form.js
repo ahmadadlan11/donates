@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { user, lock, calender, loadingState } from "../assets/icons";
 import CustomInput from "./input";
 import qs from "query-string";
 import useApi from "../API/useApi";
+import { ModalContext } from "../Store/ModalProvider";
 
 const Form = () => {
+  const [, toggleModal, , action] = useContext(ModalContext);
+
   const { key, handleSubmit } = useApi();
+
   const [PAN, setPAN] = useState("2222222222323232");
   const [PIN, setPIN] = useState("1331");
   const [expDate, setexpDate] = useState("1231/23");
@@ -13,6 +17,10 @@ const Form = () => {
   const params = qs.parse(window.location.search);
 
   let isValidate = key && PAN && PIN && expDate && true;
+
+  useEffect(() => {
+    if (action && isValidate) handleSubmit({ params, PAN, PIN, expDate });
+  }, [action]);
 
   return (
     <div className="flex items-center flex-col gap-4">
@@ -46,7 +54,7 @@ const Form = () => {
         }   h-12 rounded-lg  text-white flex items-center justify-center font-semibold
         hover:shadow-lg`}
         onClick={() => {
-          handleSubmit({ params, PAN, PIN, expDate });
+          toggleModal();
           // document.location = "js://webview?arg1=111&args2=222";
         }}
         disabled={!isValidate}

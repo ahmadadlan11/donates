@@ -1,23 +1,27 @@
-import React, { useState, createContext } from "react";
+import React, { useState, createContext, useEffect } from "react";
 export const ModalContext = createContext();
 
 const ModalProvider = ({ children }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [action, setAction] = useState(null);
+  const [action, setAction] = useState(false);
+
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
   };
 
-  const openModal = async (callback) => {};
-
-  const modalResult = async (action) => {
-    if (action == "Cancel") {
-      return false;
-    } else return true;
+  const isConfirmed = () => {
+    setAction(true);
+    toggleModal();
   };
 
+  useEffect(() => {
+    setAction(false);
+  }, [action]);
+
   return (
-    <ModalContext.Provider value={[isModalOpen, toggleModal, modalResult]}>
+    <ModalContext.Provider
+      value={[isModalOpen, toggleModal, isConfirmed, action]}
+    >
       {children}
     </ModalContext.Provider>
   );

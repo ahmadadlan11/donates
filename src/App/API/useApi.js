@@ -11,7 +11,7 @@ const useApi = () => {
   const [key, setKey] = useState();
   const [, toggleError] = useContext(ErrorContext);
   const [, toggleLoading] = useContext(LoadingContext);
-  const [, toggleModal, modalResult] = useContext(ModalContext);
+  const [, toggleModal, , action] = useContext(ModalContext);
 
   const getKey = async () => {
     let results;
@@ -40,11 +40,6 @@ const useApi = () => {
   }, []);
 
   const handleSubmit = async ({ params, PAN, PIN, expDate }) => {
-    toggleModal();
-    const modalresult = await modalResult("Cancel");
-    if (!modalresult) return;
-
-    // console.log(modalresult);
     toggleLoading(true);
     const { IPIN, id } = generateIPin(PIN, key);
     let results;
