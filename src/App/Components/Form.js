@@ -10,7 +10,7 @@ const Form = () => {
 
   const { key, handleSubmit } = useApi();
 
-  const [PAN, setPAN] = useState("2222222222323232");
+  const [PAN, setPAN] = useState("222222222323232");
   const [PIN, setPIN] = useState("1331");
   const [expDate, setexpDate] = useState("1231/23");
 

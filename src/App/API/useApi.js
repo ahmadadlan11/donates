@@ -5,13 +5,11 @@ import qs from "query-string";
 
 import { ErrorContext } from "../Store/ErrorProvider";
 import { LoadingContext } from "../Store/LoadingProvider";
-import { ModalContext } from "../Store/ModalProvider";
 
 const useApi = () => {
   const [key, setKey] = useState();
   const [, toggleError] = useContext(ErrorContext);
   const [, toggleLoading] = useContext(LoadingContext);
-  const [, toggleModal, , action] = useContext(ModalContext);
 
   const getKey = async () => {
     let results;
