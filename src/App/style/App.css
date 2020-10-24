@@ -1663,34 +1663,10 @@ video {
   border-color: rgba(246, 246, 246, var(--divide-opacity));
 }
 
-.divide-orang > :not(template) ~ :not(template) {
-  --divide-opacity: 1;
-  border-color: #EE3C38;
-  border-color: rgba(238, 60, 56, var(--divide-opacity));
-}
-
-.divide-fontColor1 > :not(template) ~ :not(template) {
-  --divide-opacity: 1;
-  border-color: #E41C31;
-  border-color: rgba(228, 28, 49, var(--divide-opacity));
-}
-
-.divide-buttonFrom > :not(template) ~ :not(template) {
-  --divide-opacity: 1;
-  border-color: #EC3620;
-  border-color: rgba(236, 54, 32, var(--divide-opacity));
-}
-
-.divide-buttonTo > :not(template) ~ :not(template) {
-  --divide-opacity: 1;
-  border-color: #E32624;
-  border-color: rgba(227, 38, 36, var(--divide-opacity));
-}
-
 .divide-oranges-light > :not(template) ~ :not(template) {
   --divide-opacity: 1;
-  border-color: #e45320;
-  border-color: rgba(228, 83, 32, var(--divide-opacity));
+  border-color: #EEAC5A;
+  border-color: rgba(238, 172, 90, var(--divide-opacity));
 }
 
 .divide-oranges-deep > :not(template) ~ :not(template) {
@@ -1701,8 +1677,8 @@ video {
 
 .divide-oranges-deeper > :not(template) ~ :not(template) {
   --divide-opacity: 1;
-  border-color: #e41c31;
-  border-color: rgba(228, 28, 49, var(--divide-opacity));
+  border-color: #E70E02;
+  border-color: rgba(231, 14, 2, var(--divide-opacity));
 }
 
 .divide-solid > :not(template) ~ :not(template) {
@@ -2391,34 +2367,10 @@ video {
   background-color: rgba(246, 246, 246, var(--bg-opacity));
 }
 
-.bg-orang {
-  --bg-opacity: 1;
-  background-color: #EE3C38;
-  background-color: rgba(238, 60, 56, var(--bg-opacity));
-}
-
-.bg-fontColor1 {
-  --bg-opacity: 1;
-  background-color: #E41C31;
-  background-color: rgba(228, 28, 49, var(--bg-opacity));
-}
-
-.bg-buttonFrom {
-  --bg-opacity: 1;
-  background-color: #EC3620;
-  background-color: rgba(236, 54, 32, var(--bg-opacity));
-}
-
-.bg-buttonTo {
-  --bg-opacity: 1;
-  background-color: #E32624;
-  background-color: rgba(227, 38, 36, var(--bg-opacity));
-}
-
 .bg-oranges-light {
   --bg-opacity: 1;
-  background-color: #e45320;
-  background-color: rgba(228, 83, 32, var(--bg-opacity));
+  background-color: #EEAC5A;
+  background-color: rgba(238, 172, 90, var(--bg-opacity));
 }
 
 .bg-oranges-deep {
@@ -2429,8 +2381,8 @@ video {
 
 .bg-oranges-deeper {
   --bg-opacity: 1;
-  background-color: #e41c31;
-  background-color: rgba(228, 28, 49, var(--bg-opacity));
+  background-color: #E70E02;
+  background-color: rgba(231, 14, 2, var(--bg-opacity));
 }
 
 .hover\:bg-transparent:hover {
@@ -2999,34 +2951,10 @@ video {
   background-color: rgba(246, 246, 246, var(--bg-opacity));
 }
 
-.hover\:bg-orang:hover {
-  --bg-opacity: 1;
-  background-color: #EE3C38;
-  background-color: rgba(238, 60, 56, var(--bg-opacity));
-}
-
-.hover\:bg-fontColor1:hover {
-  --bg-opacity: 1;
-  background-color: #E41C31;
-  background-color: rgba(228, 28, 49, var(--bg-opacity));
-}
-
-.hover\:bg-buttonFrom:hover {
-  --bg-opacity: 1;
-  background-color: #EC3620;
-  background-color: rgba(236, 54, 32, var(--bg-opacity));
-}
-
-.hover\:bg-buttonTo:hover {
-  --bg-opacity: 1;
-  background-color: #E32624;
-  background-color: rgba(227, 38, 36, var(--bg-opacity));
-}
-
 .hover\:bg-oranges-light:hover {
   --bg-opacity: 1;
-  background-color: #e45320;
-  background-color: rgba(228, 83, 32, var(--bg-opacity));
+  background-color: #EEAC5A;
+  background-color: rgba(238, 172, 90, var(--bg-opacity));
 }
 
 .hover\:bg-oranges-deep:hover {
@@ -3037,8 +2965,8 @@ video {
 
 .hover\:bg-oranges-deeper:hover {
   --bg-opacity: 1;
-  background-color: #e41c31;
-  background-color: rgba(228, 28, 49, var(--bg-opacity));
+  background-color: #E70E02;
+  background-color: rgba(231, 14, 2, var(--bg-opacity));
 }
 
 .focus\:bg-transparent:focus {
@@ -3607,34 +3535,10 @@ video {
   background-color: rgba(246, 246, 246, var(--bg-opacity));
 }
 
-.focus\:bg-orang:focus {
-  --bg-opacity: 1;
-  background-color: #EE3C38;
-  background-color: rgba(238, 60, 56, var(--bg-opacity));
-}
-
-.focus\:bg-fontColor1:focus {
-  --bg-opacity: 1;
-  background-color: #E41C31;
-  background-color: rgba(228, 28, 49, var(--bg-opacity));
-}
-
-.focus\:bg-buttonFrom:focus {
-  --bg-opacity: 1;
-  background-color: #EC3620;
-  background-color: rgba(236, 54, 32, var(--bg-opacity));
-}
-
-.focus\:bg-buttonTo:focus {
-  --bg-opacity: 1;
-  background-color: #E32624;
-  background-color: rgba(227, 38, 36, var(--bg-opacity));
-}
-
 .focus\:bg-oranges-light:focus {
   --bg-opacity: 1;
-  background-color: #e45320;
-  background-color: rgba(228, 83, 32, var(--bg-opacity));
+  background-color: #EEAC5A;
+  background-color: rgba(238, 172, 90, var(--bg-opacity));
 }
 
 .focus\:bg-oranges-deep:focus {
@@ -3645,8 +3549,8 @@ video {
 
 .focus\:bg-oranges-deeper:focus {
   --bg-opacity: 1;
-  background-color: #e41c31;
-  background-color: rgba(228, 28, 49, var(--bg-opacity));
+  background-color: #E70E02;
+  background-color: rgba(231, 14, 2, var(--bg-opacity));
 }
 
 .bg-none {
@@ -4160,29 +4064,9 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
 }
 
-.from-orang {
-  --gradient-from-color: #EE3C38;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-}
-
-.from-fontColor1 {
-  --gradient-from-color: #E41C31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-}
-
-.from-buttonFrom {
-  --gradient-from-color: #EC3620;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-}
-
-.from-buttonTo {
-  --gradient-from-color: #E32624;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-}
-
 .from-oranges-light {
-  --gradient-from-color: #e45320;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+  --gradient-from-color: #EEAC5A;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
 }
 
 .from-oranges-deep {
@@ -4191,8 +4075,8 @@ video {
 }
 
 .from-oranges-deeper {
-  --gradient-from-color: #e41c31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+  --gradient-from-color: #E70E02;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
 }
 
 .via-transparent {
@@ -4670,29 +4554,9 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
 }
 
-.via-orang {
-  --gradient-via-color: #EE3C38;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-}
-
-.via-fontColor1 {
-  --gradient-via-color: #E41C31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-}
-
-.via-buttonFrom {
-  --gradient-via-color: #EC3620;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-}
-
-.via-buttonTo {
-  --gradient-via-color: #E32624;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-}
-
 .via-oranges-light {
-  --gradient-via-color: #e45320;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+  --gradient-via-color: #EEAC5A;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
 }
 
 .via-oranges-deep {
@@ -4701,8 +4565,8 @@ video {
 }
 
 .via-oranges-deeper {
-  --gradient-via-color: #e41c31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+  --gradient-via-color: #E70E02;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
 }
 
 .to-transparent {
@@ -5085,24 +4949,8 @@ video {
   --gradient-to-color: #F6F6F6;
 }
 
-.to-orang {
-  --gradient-to-color: #EE3C38;
-}
-
-.to-fontColor1 {
-  --gradient-to-color: #E41C31;
-}
-
-.to-buttonFrom {
-  --gradient-to-color: #EC3620;
-}
-
-.to-buttonTo {
-  --gradient-to-color: #E32624;
-}
-
 .to-oranges-light {
-  --gradient-to-color: #e45320;
+  --gradient-to-color: #EEAC5A;
 }
 
 .to-oranges-deep {
@@ -5110,7 +4958,7 @@ video {
 }
 
 .to-oranges-deeper {
-  --gradient-to-color: #e41c31;
+  --gradient-to-color: #E70E02;
 }
 
 .hover\:from-transparent:hover {
@@ -5588,29 +5436,9 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
 }
 
-.hover\:from-orang:hover {
-  --gradient-from-color: #EE3C38;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-}
-
-.hover\:from-fontColor1:hover {
-  --gradient-from-color: #E41C31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-}
-
-.hover\:from-buttonFrom:hover {
-  --gradient-from-color: #EC3620;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-}
-
-.hover\:from-buttonTo:hover {
-  --gradient-from-color: #E32624;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-}
-
 .hover\:from-oranges-light:hover {
-  --gradient-from-color: #e45320;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+  --gradient-from-color: #EEAC5A;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
 }
 
 .hover\:from-oranges-deep:hover {
@@ -5619,8 +5447,8 @@ video {
 }
 
 .hover\:from-oranges-deeper:hover {
-  --gradient-from-color: #e41c31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+  --gradient-from-color: #E70E02;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
 }
 
 .hover\:via-transparent:hover {
@@ -6098,29 +5926,9 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
 }
 
-.hover\:via-orang:hover {
-  --gradient-via-color: #EE3C38;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-}
-
-.hover\:via-fontColor1:hover {
-  --gradient-via-color: #E41C31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-}
-
-.hover\:via-buttonFrom:hover {
-  --gradient-via-color: #EC3620;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-}
-
-.hover\:via-buttonTo:hover {
-  --gradient-via-color: #E32624;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-}
-
 .hover\:via-oranges-light:hover {
-  --gradient-via-color: #e45320;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+  --gradient-via-color: #EEAC5A;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
 }
 
 .hover\:via-oranges-deep:hover {
@@ -6129,8 +5937,8 @@ video {
 }
 
 .hover\:via-oranges-deeper:hover {
-  --gradient-via-color: #e41c31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+  --gradient-via-color: #E70E02;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
 }
 
 .hover\:to-transparent:hover {
@@ -6513,24 +6321,8 @@ video {
   --gradient-to-color: #F6F6F6;
 }
 
-.hover\:to-orang:hover {
-  --gradient-to-color: #EE3C38;
-}
-
-.hover\:to-fontColor1:hover {
-  --gradient-to-color: #E41C31;
-}
-
-.hover\:to-buttonFrom:hover {
-  --gradient-to-color: #EC3620;
-}
-
-.hover\:to-buttonTo:hover {
-  --gradient-to-color: #E32624;
-}
-
 .hover\:to-oranges-light:hover {
-  --gradient-to-color: #e45320;
+  --gradient-to-color: #EEAC5A;
 }
 
 .hover\:to-oranges-deep:hover {
@@ -6538,7 +6330,7 @@ video {
 }
 
 .hover\:to-oranges-deeper:hover {
-  --gradient-to-color: #e41c31;
+  --gradient-to-color: #E70E02;
 }
 
 .focus\:from-transparent:focus {
@@ -7016,29 +6808,9 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
 }
 
-.focus\:from-orang:focus {
-  --gradient-from-color: #EE3C38;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-}
-
-.focus\:from-fontColor1:focus {
-  --gradient-from-color: #E41C31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-}
-
-.focus\:from-buttonFrom:focus {
-  --gradient-from-color: #EC3620;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-}
-
-.focus\:from-buttonTo:focus {
-  --gradient-from-color: #E32624;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-}
-
 .focus\:from-oranges-light:focus {
-  --gradient-from-color: #e45320;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+  --gradient-from-color: #EEAC5A;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
 }
 
 .focus\:from-oranges-deep:focus {
@@ -7047,8 +6819,8 @@ video {
 }
 
 .focus\:from-oranges-deeper:focus {
-  --gradient-from-color: #e41c31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+  --gradient-from-color: #E70E02;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
 }
 
 .focus\:via-transparent:focus {
@@ -7526,29 +7298,9 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
 }
 
-.focus\:via-orang:focus {
-  --gradient-via-color: #EE3C38;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-}
-
-.focus\:via-fontColor1:focus {
-  --gradient-via-color: #E41C31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-}
-
-.focus\:via-buttonFrom:focus {
-  --gradient-via-color: #EC3620;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-}
-
-.focus\:via-buttonTo:focus {
-  --gradient-via-color: #E32624;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-}
-
 .focus\:via-oranges-light:focus {
-  --gradient-via-color: #e45320;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+  --gradient-via-color: #EEAC5A;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
 }
 
 .focus\:via-oranges-deep:focus {
@@ -7557,8 +7309,8 @@ video {
 }
 
 .focus\:via-oranges-deeper:focus {
-  --gradient-via-color: #e41c31;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+  --gradient-via-color: #E70E02;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
 }
 
 .focus\:to-transparent:focus {
@@ -7941,24 +7693,8 @@ video {
   --gradient-to-color: #F6F6F6;
 }
 
-.focus\:to-orang:focus {
-  --gradient-to-color: #EE3C38;
-}
-
-.focus\:to-fontColor1:focus {
-  --gradient-to-color: #E41C31;
-}
-
-.focus\:to-buttonFrom:focus {
-  --gradient-to-color: #EC3620;
-}
-
-.focus\:to-buttonTo:focus {
-  --gradient-to-color: #E32624;
-}
-
 .focus\:to-oranges-light:focus {
-  --gradient-to-color: #e45320;
+  --gradient-to-color: #EEAC5A;
 }
 
 .focus\:to-oranges-deep:focus {
@@ -7966,7 +7702,7 @@ video {
 }
 
 .focus\:to-oranges-deeper:focus {
-  --gradient-to-color: #e41c31;
+  --gradient-to-color: #E70E02;
 }
 
 .bg-opacity-0 {
@@ -8675,34 +8411,10 @@ video {
   border-color: rgba(246, 246, 246, var(--border-opacity));
 }
 
-.border-orang {
-  --border-opacity: 1;
-  border-color: #EE3C38;
-  border-color: rgba(238, 60, 56, var(--border-opacity));
-}
-
-.border-fontColor1 {
-  --border-opacity: 1;
-  border-color: #E41C31;
-  border-color: rgba(228, 28, 49, var(--border-opacity));
-}
-
-.border-buttonFrom {
-  --border-opacity: 1;
-  border-color: #EC3620;
-  border-color: rgba(236, 54, 32, var(--border-opacity));
-}
-
-.border-buttonTo {
-  --border-opacity: 1;
-  border-color: #E32624;
-  border-color: rgba(227, 38, 36, var(--border-opacity));
-}
-
 .border-oranges-light {
   --border-opacity: 1;
-  border-color: #e45320;
-  border-color: rgba(228, 83, 32, var(--border-opacity));
+  border-color: #EEAC5A;
+  border-color: rgba(238, 172, 90, var(--border-opacity));
 }
 
 .border-oranges-deep {
@@ -8713,8 +8425,8 @@ video {
 
 .border-oranges-deeper {
   --border-opacity: 1;
-  border-color: #e41c31;
-  border-color: rgba(228, 28, 49, var(--border-opacity));
+  border-color: #E70E02;
+  border-color: rgba(231, 14, 2, var(--border-opacity));
 }
 
 .hover\:border-transparent:hover {
@@ -9283,34 +8995,10 @@ video {
   border-color: rgba(246, 246, 246, var(--border-opacity));
 }
 
-.hover\:border-orang:hover {
-  --border-opacity: 1;
-  border-color: #EE3C38;
-  border-color: rgba(238, 60, 56, var(--border-opacity));
-}
-
-.hover\:border-fontColor1:hover {
-  --border-opacity: 1;
-  border-color: #E41C31;
-  border-color: rgba(228, 28, 49, var(--border-opacity));
-}
-
-.hover\:border-buttonFrom:hover {
-  --border-opacity: 1;
-  border-color: #EC3620;
-  border-color: rgba(236, 54, 32, var(--border-opacity));
-}
-
-.hover\:border-buttonTo:hover {
-  --border-opacity: 1;
-  border-color: #E32624;
-  border-color: rgba(227, 38, 36, var(--border-opacity));
-}
-
 .hover\:border-oranges-light:hover {
   --border-opacity: 1;
-  border-color: #e45320;
-  border-color: rgba(228, 83, 32, var(--border-opacity));
+  border-color: #EEAC5A;
+  border-color: rgba(238, 172, 90, var(--border-opacity));
 }
 
 .hover\:border-oranges-deep:hover {
@@ -9321,8 +9009,8 @@ video {
 
 .hover\:border-oranges-deeper:hover {
   --border-opacity: 1;
-  border-color: #e41c31;
-  border-color: rgba(228, 28, 49, var(--border-opacity));
+  border-color: #E70E02;
+  border-color: rgba(231, 14, 2, var(--border-opacity));
 }
 
 .focus\:border-transparent:focus {
@@ -9891,34 +9579,10 @@ video {
   border-color: rgba(246, 246, 246, var(--border-opacity));
 }
 
-.focus\:border-orang:focus {
-  --border-opacity: 1;
-  border-color: #EE3C38;
-  border-color: rgba(238, 60, 56, var(--border-opacity));
-}
-
-.focus\:border-fontColor1:focus {
-  --border-opacity: 1;
-  border-color: #E41C31;
-  border-color: rgba(228, 28, 49, var(--border-opacity));
-}
-
-.focus\:border-buttonFrom:focus {
-  --border-opacity: 1;
-  border-color: #EC3620;
-  border-color: rgba(236, 54, 32, var(--border-opacity));
-}
-
-.focus\:border-buttonTo:focus {
-  --border-opacity: 1;
-  border-color: #E32624;
-  border-color: rgba(227, 38, 36, var(--border-opacity));
-}
-
 .focus\:border-oranges-light:focus {
   --border-opacity: 1;
-  border-color: #e45320;
-  border-color: rgba(228, 83, 32, var(--border-opacity));
+  border-color: #EEAC5A;
+  border-color: rgba(238, 172, 90, var(--border-opacity));
 }
 
 .focus\:border-oranges-deep:focus {
@@ -9929,8 +9593,8 @@ video {
 
 .focus\:border-oranges-deeper:focus {
   --border-opacity: 1;
-  border-color: #e41c31;
-  border-color: rgba(228, 28, 49, var(--border-opacity));
+  border-color: #E70E02;
+  border-color: rgba(231, 14, 2, var(--border-opacity));
 }
 
 .border-opacity-0 {
@@ -13865,34 +13529,10 @@ video {
   color: rgba(246, 246, 246, var(--placeholder-opacity));
 }
 
-.placeholder-orang::placeholder {
-  --placeholder-opacity: 1;
-  color: #EE3C38;
-  color: rgba(238, 60, 56, var(--placeholder-opacity));
-}
-
-.placeholder-fontColor1::placeholder {
-  --placeholder-opacity: 1;
-  color: #E41C31;
-  color: rgba(228, 28, 49, var(--placeholder-opacity));
-}
-
-.placeholder-buttonFrom::placeholder {
-  --placeholder-opacity: 1;
-  color: #EC3620;
-  color: rgba(236, 54, 32, var(--placeholder-opacity));
-}
-
-.placeholder-buttonTo::placeholder {
-  --placeholder-opacity: 1;
-  color: #E32624;
-  color: rgba(227, 38, 36, var(--placeholder-opacity));
-}
-
 .placeholder-oranges-light::placeholder {
   --placeholder-opacity: 1;
-  color: #e45320;
-  color: rgba(228, 83, 32, var(--placeholder-opacity));
+  color: #EEAC5A;
+  color: rgba(238, 172, 90, var(--placeholder-opacity));
 }
 
 .placeholder-oranges-deep::placeholder {
@@ -13903,8 +13543,8 @@ video {
 
 .placeholder-oranges-deeper::placeholder {
   --placeholder-opacity: 1;
-  color: #e41c31;
-  color: rgba(228, 28, 49, var(--placeholder-opacity));
+  color: #E70E02;
+  color: rgba(231, 14, 2, var(--placeholder-opacity));
 }
 
 .focus\:placeholder-transparent:focus::placeholder {
@@ -14473,34 +14113,10 @@ video {
   color: rgba(246, 246, 246, var(--placeholder-opacity));
 }
 
-.focus\:placeholder-orang:focus::placeholder {
-  --placeholder-opacity: 1;
-  color: #EE3C38;
-  color: rgba(238, 60, 56, var(--placeholder-opacity));
-}
-
-.focus\:placeholder-fontColor1:focus::placeholder {
-  --placeholder-opacity: 1;
-  color: #E41C31;
-  color: rgba(228, 28, 49, var(--placeholder-opacity));
-}
-
-.focus\:placeholder-buttonFrom:focus::placeholder {
-  --placeholder-opacity: 1;
-  color: #EC3620;
-  color: rgba(236, 54, 32, var(--placeholder-opacity));
-}
-
-.focus\:placeholder-buttonTo:focus::placeholder {
-  --placeholder-opacity: 1;
-  color: #E32624;
-  color: rgba(227, 38, 36, var(--placeholder-opacity));
-}
-
 .focus\:placeholder-oranges-light:focus::placeholder {
   --placeholder-opacity: 1;
-  color: #e45320;
-  color: rgba(228, 83, 32, var(--placeholder-opacity));
+  color: #EEAC5A;
+  color: rgba(238, 172, 90, var(--placeholder-opacity));
 }
 
 .focus\:placeholder-oranges-deep:focus::placeholder {
@@ -14511,8 +14127,8 @@ video {
 
 .focus\:placeholder-oranges-deeper:focus::placeholder {
   --placeholder-opacity: 1;
-  color: #e41c31;
-  color: rgba(228, 28, 49, var(--placeholder-opacity));
+  color: #E70E02;
+  color: rgba(231, 14, 2, var(--placeholder-opacity));
 }
 
 .placeholder-opacity-0::placeholder {
@@ -15395,34 +15011,10 @@ video {
   color: rgba(246, 246, 246, var(--text-opacity));
 }
 
-.text-orang {
-  --text-opacity: 1;
-  color: #EE3C38;
-  color: rgba(238, 60, 56, var(--text-opacity));
-}
-
-.text-fontColor1 {
-  --text-opacity: 1;
-  color: #E41C31;
-  color: rgba(228, 28, 49, var(--text-opacity));
-}
-
-.text-buttonFrom {
-  --text-opacity: 1;
-  color: #EC3620;
-  color: rgba(236, 54, 32, var(--text-opacity));
-}
-
-.text-buttonTo {
-  --text-opacity: 1;
-  color: #E32624;
-  color: rgba(227, 38, 36, var(--text-opacity));
-}
-
 .text-oranges-light {
   --text-opacity: 1;
-  color: #e45320;
-  color: rgba(228, 83, 32, var(--text-opacity));
+  color: #EEAC5A;
+  color: rgba(238, 172, 90, var(--text-opacity));
 }
 
 .text-oranges-deep {
@@ -15433,8 +15025,8 @@ video {
 
 .text-oranges-deeper {
   --text-opacity: 1;
-  color: #e41c31;
-  color: rgba(228, 28, 49, var(--text-opacity));
+  color: #E70E02;
+  color: rgba(231, 14, 2, var(--text-opacity));
 }
 
 .hover\:text-transparent:hover {
@@ -16003,34 +15595,10 @@ video {
   color: rgba(246, 246, 246, var(--text-opacity));
 }
 
-.hover\:text-orang:hover {
-  --text-opacity: 1;
-  color: #EE3C38;
-  color: rgba(238, 60, 56, var(--text-opacity));
-}
-
-.hover\:text-fontColor1:hover {
-  --text-opacity: 1;
-  color: #E41C31;
-  color: rgba(228, 28, 49, var(--text-opacity));
-}
-
-.hover\:text-buttonFrom:hover {
-  --text-opacity: 1;
-  color: #EC3620;
-  color: rgba(236, 54, 32, var(--text-opacity));
-}
-
-.hover\:text-buttonTo:hover {
-  --text-opacity: 1;
-  color: #E32624;
-  color: rgba(227, 38, 36, var(--text-opacity));
-}
-
 .hover\:text-oranges-light:hover {
   --text-opacity: 1;
-  color: #e45320;
-  color: rgba(228, 83, 32, var(--text-opacity));
+  color: #EEAC5A;
+  color: rgba(238, 172, 90, var(--text-opacity));
 }
 
 .hover\:text-oranges-deep:hover {
@@ -16041,8 +15609,8 @@ video {
 
 .hover\:text-oranges-deeper:hover {
   --text-opacity: 1;
-  color: #e41c31;
-  color: rgba(228, 28, 49, var(--text-opacity));
+  color: #E70E02;
+  color: rgba(231, 14, 2, var(--text-opacity));
 }
 
 .focus\:text-transparent:focus {
@@ -16611,34 +16179,10 @@ video {
   color: rgba(246, 246, 246, var(--text-opacity));
 }
 
-.focus\:text-orang:focus {
-  --text-opacity: 1;
-  color: #EE3C38;
-  color: rgba(238, 60, 56, var(--text-opacity));
-}
-
-.focus\:text-fontColor1:focus {
-  --text-opacity: 1;
-  color: #E41C31;
-  color: rgba(228, 28, 49, var(--text-opacity));
-}
-
-.focus\:text-buttonFrom:focus {
-  --text-opacity: 1;
-  color: #EC3620;
-  color: rgba(236, 54, 32, var(--text-opacity));
-}
-
-.focus\:text-buttonTo:focus {
-  --text-opacity: 1;
-  color: #E32624;
-  color: rgba(227, 38, 36, var(--text-opacity));
-}
-
 .focus\:text-oranges-light:focus {
   --text-opacity: 1;
-  color: #e45320;
-  color: rgba(228, 83, 32, var(--text-opacity));
+  color: #EEAC5A;
+  color: rgba(238, 172, 90, var(--text-opacity));
 }
 
 .focus\:text-oranges-deep:focus {
@@ -16649,8 +16193,8 @@ video {
 
 .focus\:text-oranges-deeper:focus {
   --text-opacity: 1;
-  color: #e41c31;
-  color: rgba(228, 28, 49, var(--text-opacity));
+  color: #E70E02;
+  color: rgba(231, 14, 2, var(--text-opacity));
 }
 
 .text-opacity-0 {
@@ -20979,34 +20523,10 @@ video {
     border-color: rgba(246, 246, 246, var(--divide-opacity));
   }
 
-  .sm\:divide-orang > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--divide-opacity));
-  }
-
-  .sm\:divide-fontColor1 > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--divide-opacity));
-  }
-
-  .sm\:divide-buttonFrom > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--divide-opacity));
-  }
-
-  .sm\:divide-buttonTo > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--divide-opacity));
-  }
-
   .sm\:divide-oranges-light > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--divide-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--divide-opacity));
   }
 
   .sm\:divide-oranges-deep > :not(template) ~ :not(template) {
@@ -21017,8 +20537,8 @@ video {
 
   .sm\:divide-oranges-deeper > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--divide-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--divide-opacity));
   }
 
   .sm\:divide-solid > :not(template) ~ :not(template) {
@@ -21707,34 +21227,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .sm\:bg-orang {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .sm\:bg-fontColor1 {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .sm\:bg-buttonFrom {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .sm\:bg-buttonTo {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .sm\:bg-oranges-light {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .sm\:bg-oranges-deep {
@@ -21745,8 +21241,8 @@ video {
 
   .sm\:bg-oranges-deeper {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .sm\:hover\:bg-transparent:hover {
@@ -22315,34 +21811,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .sm\:hover\:bg-orang:hover {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .sm\:hover\:bg-fontColor1:hover {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .sm\:hover\:bg-buttonFrom:hover {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .sm\:hover\:bg-buttonTo:hover {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .sm\:hover\:bg-oranges-light:hover {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .sm\:hover\:bg-oranges-deep:hover {
@@ -22353,8 +21825,8 @@ video {
 
   .sm\:hover\:bg-oranges-deeper:hover {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-transparent:focus {
@@ -22923,34 +22395,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .sm\:focus\:bg-orang:focus {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .sm\:focus\:bg-fontColor1:focus {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .sm\:focus\:bg-buttonFrom:focus {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .sm\:focus\:bg-buttonTo:focus {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .sm\:focus\:bg-oranges-light:focus {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-oranges-deep:focus {
@@ -22961,8 +22409,8 @@ video {
 
   .sm\:focus\:bg-oranges-deeper:focus {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .sm\:bg-none {
@@ -23476,29 +22924,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .sm\:from-orang {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .sm\:from-fontColor1 {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .sm\:from-buttonFrom {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .sm\:from-buttonTo {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .sm\:from-oranges-light {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .sm\:from-oranges-deep {
@@ -23507,8 +22935,8 @@ video {
   }
 
   .sm\:from-oranges-deeper {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .sm\:via-transparent {
@@ -23986,29 +23414,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .sm\:via-orang {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .sm\:via-fontColor1 {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .sm\:via-buttonFrom {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .sm\:via-buttonTo {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .sm\:via-oranges-light {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .sm\:via-oranges-deep {
@@ -24017,8 +23425,8 @@ video {
   }
 
   .sm\:via-oranges-deeper {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .sm\:to-transparent {
@@ -24401,24 +23809,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .sm\:to-orang {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .sm\:to-fontColor1 {
-    --gradient-to-color: #E41C31;
-  }
-
-  .sm\:to-buttonFrom {
-    --gradient-to-color: #EC3620;
-  }
-
-  .sm\:to-buttonTo {
-    --gradient-to-color: #E32624;
-  }
-
   .sm\:to-oranges-light {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .sm\:to-oranges-deep {
@@ -24426,7 +23818,7 @@ video {
   }
 
   .sm\:to-oranges-deeper {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .sm\:hover\:from-transparent:hover {
@@ -24904,29 +24296,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .sm\:hover\:from-orang:hover {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .sm\:hover\:from-fontColor1:hover {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .sm\:hover\:from-buttonFrom:hover {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .sm\:hover\:from-buttonTo:hover {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .sm\:hover\:from-oranges-light:hover {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .sm\:hover\:from-oranges-deep:hover {
@@ -24935,8 +24307,8 @@ video {
   }
 
   .sm\:hover\:from-oranges-deeper:hover {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .sm\:hover\:via-transparent:hover {
@@ -25414,29 +24786,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .sm\:hover\:via-orang:hover {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .sm\:hover\:via-fontColor1:hover {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .sm\:hover\:via-buttonFrom:hover {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .sm\:hover\:via-buttonTo:hover {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .sm\:hover\:via-oranges-light:hover {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .sm\:hover\:via-oranges-deep:hover {
@@ -25445,8 +24797,8 @@ video {
   }
 
   .sm\:hover\:via-oranges-deeper:hover {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .sm\:hover\:to-transparent:hover {
@@ -25829,24 +25181,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .sm\:hover\:to-orang:hover {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .sm\:hover\:to-fontColor1:hover {
-    --gradient-to-color: #E41C31;
-  }
-
-  .sm\:hover\:to-buttonFrom:hover {
-    --gradient-to-color: #EC3620;
-  }
-
-  .sm\:hover\:to-buttonTo:hover {
-    --gradient-to-color: #E32624;
-  }
-
   .sm\:hover\:to-oranges-light:hover {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .sm\:hover\:to-oranges-deep:hover {
@@ -25854,7 +25190,7 @@ video {
   }
 
   .sm\:hover\:to-oranges-deeper:hover {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .sm\:focus\:from-transparent:focus {
@@ -26332,29 +25668,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .sm\:focus\:from-orang:focus {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .sm\:focus\:from-fontColor1:focus {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .sm\:focus\:from-buttonFrom:focus {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .sm\:focus\:from-buttonTo:focus {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .sm\:focus\:from-oranges-light:focus {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .sm\:focus\:from-oranges-deep:focus {
@@ -26363,8 +25679,8 @@ video {
   }
 
   .sm\:focus\:from-oranges-deeper:focus {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .sm\:focus\:via-transparent:focus {
@@ -26842,29 +26158,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .sm\:focus\:via-orang:focus {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .sm\:focus\:via-fontColor1:focus {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .sm\:focus\:via-buttonFrom:focus {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .sm\:focus\:via-buttonTo:focus {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .sm\:focus\:via-oranges-light:focus {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .sm\:focus\:via-oranges-deep:focus {
@@ -26873,8 +26169,8 @@ video {
   }
 
   .sm\:focus\:via-oranges-deeper:focus {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .sm\:focus\:to-transparent:focus {
@@ -27257,24 +26553,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .sm\:focus\:to-orang:focus {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .sm\:focus\:to-fontColor1:focus {
-    --gradient-to-color: #E41C31;
-  }
-
-  .sm\:focus\:to-buttonFrom:focus {
-    --gradient-to-color: #EC3620;
-  }
-
-  .sm\:focus\:to-buttonTo:focus {
-    --gradient-to-color: #E32624;
-  }
-
   .sm\:focus\:to-oranges-light:focus {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .sm\:focus\:to-oranges-deep:focus {
@@ -27282,7 +26562,7 @@ video {
   }
 
   .sm\:focus\:to-oranges-deeper:focus {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .sm\:bg-opacity-0 {
@@ -27991,34 +27271,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .sm\:border-orang {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .sm\:border-fontColor1 {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .sm\:border-buttonFrom {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .sm\:border-buttonTo {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .sm\:border-oranges-light {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .sm\:border-oranges-deep {
@@ -28029,8 +27285,8 @@ video {
 
   .sm\:border-oranges-deeper {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .sm\:hover\:border-transparent:hover {
@@ -28599,34 +27855,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .sm\:hover\:border-orang:hover {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .sm\:hover\:border-fontColor1:hover {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .sm\:hover\:border-buttonFrom:hover {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .sm\:hover\:border-buttonTo:hover {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .sm\:hover\:border-oranges-light:hover {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .sm\:hover\:border-oranges-deep:hover {
@@ -28637,8 +27869,8 @@ video {
 
   .sm\:hover\:border-oranges-deeper:hover {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .sm\:focus\:border-transparent:focus {
@@ -29207,34 +28439,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .sm\:focus\:border-orang:focus {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .sm\:focus\:border-fontColor1:focus {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .sm\:focus\:border-buttonFrom:focus {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .sm\:focus\:border-buttonTo:focus {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .sm\:focus\:border-oranges-light:focus {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .sm\:focus\:border-oranges-deep:focus {
@@ -29245,8 +28453,8 @@ video {
 
   .sm\:focus\:border-oranges-deeper:focus {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .sm\:border-opacity-0 {
@@ -33181,34 +32389,10 @@ video {
     color: rgba(246, 246, 246, var(--placeholder-opacity));
   }
 
-  .sm\:placeholder-orang::placeholder {
-    --placeholder-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--placeholder-opacity));
-  }
-
-  .sm\:placeholder-fontColor1::placeholder {
-    --placeholder-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
-  }
-
-  .sm\:placeholder-buttonFrom::placeholder {
-    --placeholder-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--placeholder-opacity));
-  }
-
-  .sm\:placeholder-buttonTo::placeholder {
-    --placeholder-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--placeholder-opacity));
-  }
-
   .sm\:placeholder-oranges-light::placeholder {
     --placeholder-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--placeholder-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--placeholder-opacity));
   }
 
   .sm\:placeholder-oranges-deep::placeholder {
@@ -33219,8 +32403,8 @@ video {
 
   .sm\:placeholder-oranges-deeper::placeholder {
     --placeholder-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-transparent:focus::placeholder {
@@ -33789,34 +32973,10 @@ video {
     color: rgba(246, 246, 246, var(--placeholder-opacity));
   }
 
-  .sm\:focus\:placeholder-orang:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--placeholder-opacity));
-  }
-
-  .sm\:focus\:placeholder-fontColor1:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
-  }
-
-  .sm\:focus\:placeholder-buttonFrom:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--placeholder-opacity));
-  }
-
-  .sm\:focus\:placeholder-buttonTo:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--placeholder-opacity));
-  }
-
   .sm\:focus\:placeholder-oranges-light:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--placeholder-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-oranges-deep:focus::placeholder {
@@ -33827,8 +32987,8 @@ video {
 
   .sm\:focus\:placeholder-oranges-deeper:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--placeholder-opacity));
   }
 
   .sm\:placeholder-opacity-0::placeholder {
@@ -34711,34 +33871,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .sm\:text-orang {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .sm\:text-fontColor1 {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .sm\:text-buttonFrom {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .sm\:text-buttonTo {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .sm\:text-oranges-light {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .sm\:text-oranges-deep {
@@ -34749,8 +33885,8 @@ video {
 
   .sm\:text-oranges-deeper {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .sm\:hover\:text-transparent:hover {
@@ -35319,34 +34455,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .sm\:hover\:text-orang:hover {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .sm\:hover\:text-fontColor1:hover {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .sm\:hover\:text-buttonFrom:hover {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .sm\:hover\:text-buttonTo:hover {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .sm\:hover\:text-oranges-light:hover {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .sm\:hover\:text-oranges-deep:hover {
@@ -35357,8 +34469,8 @@ video {
 
   .sm\:hover\:text-oranges-deeper:hover {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .sm\:focus\:text-transparent:focus {
@@ -35927,34 +35039,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .sm\:focus\:text-orang:focus {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .sm\:focus\:text-fontColor1:focus {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .sm\:focus\:text-buttonFrom:focus {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .sm\:focus\:text-buttonTo:focus {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .sm\:focus\:text-oranges-light:focus {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .sm\:focus\:text-oranges-deep:focus {
@@ -35965,8 +35053,8 @@ video {
 
   .sm\:focus\:text-oranges-deeper:focus {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .sm\:text-opacity-0 {
@@ -40265,34 +39353,10 @@ video {
     border-color: rgba(246, 246, 246, var(--divide-opacity));
   }
 
-  .md\:divide-orang > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--divide-opacity));
-  }
-
-  .md\:divide-fontColor1 > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--divide-opacity));
-  }
-
-  .md\:divide-buttonFrom > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--divide-opacity));
-  }
-
-  .md\:divide-buttonTo > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--divide-opacity));
-  }
-
   .md\:divide-oranges-light > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--divide-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--divide-opacity));
   }
 
   .md\:divide-oranges-deep > :not(template) ~ :not(template) {
@@ -40303,8 +39367,8 @@ video {
 
   .md\:divide-oranges-deeper > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--divide-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--divide-opacity));
   }
 
   .md\:divide-solid > :not(template) ~ :not(template) {
@@ -40993,34 +40057,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .md\:bg-orang {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .md\:bg-fontColor1 {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .md\:bg-buttonFrom {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .md\:bg-buttonTo {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .md\:bg-oranges-light {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .md\:bg-oranges-deep {
@@ -41031,8 +40071,8 @@ video {
 
   .md\:bg-oranges-deeper {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .md\:hover\:bg-transparent:hover {
@@ -41601,34 +40641,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .md\:hover\:bg-orang:hover {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .md\:hover\:bg-fontColor1:hover {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .md\:hover\:bg-buttonFrom:hover {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .md\:hover\:bg-buttonTo:hover {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .md\:hover\:bg-oranges-light:hover {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .md\:hover\:bg-oranges-deep:hover {
@@ -41639,8 +40655,8 @@ video {
 
   .md\:hover\:bg-oranges-deeper:hover {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .md\:focus\:bg-transparent:focus {
@@ -42209,34 +41225,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .md\:focus\:bg-orang:focus {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .md\:focus\:bg-fontColor1:focus {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .md\:focus\:bg-buttonFrom:focus {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .md\:focus\:bg-buttonTo:focus {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .md\:focus\:bg-oranges-light:focus {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .md\:focus\:bg-oranges-deep:focus {
@@ -42247,8 +41239,8 @@ video {
 
   .md\:focus\:bg-oranges-deeper:focus {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .md\:bg-none {
@@ -42762,29 +41754,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .md\:from-orang {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .md\:from-fontColor1 {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .md\:from-buttonFrom {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .md\:from-buttonTo {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .md\:from-oranges-light {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .md\:from-oranges-deep {
@@ -42793,8 +41765,8 @@ video {
   }
 
   .md\:from-oranges-deeper {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .md\:via-transparent {
@@ -43272,29 +42244,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .md\:via-orang {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .md\:via-fontColor1 {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .md\:via-buttonFrom {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .md\:via-buttonTo {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .md\:via-oranges-light {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .md\:via-oranges-deep {
@@ -43303,8 +42255,8 @@ video {
   }
 
   .md\:via-oranges-deeper {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .md\:to-transparent {
@@ -43687,24 +42639,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .md\:to-orang {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .md\:to-fontColor1 {
-    --gradient-to-color: #E41C31;
-  }
-
-  .md\:to-buttonFrom {
-    --gradient-to-color: #EC3620;
-  }
-
-  .md\:to-buttonTo {
-    --gradient-to-color: #E32624;
-  }
-
   .md\:to-oranges-light {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .md\:to-oranges-deep {
@@ -43712,7 +42648,7 @@ video {
   }
 
   .md\:to-oranges-deeper {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .md\:hover\:from-transparent:hover {
@@ -44190,29 +43126,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .md\:hover\:from-orang:hover {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .md\:hover\:from-fontColor1:hover {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .md\:hover\:from-buttonFrom:hover {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .md\:hover\:from-buttonTo:hover {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .md\:hover\:from-oranges-light:hover {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .md\:hover\:from-oranges-deep:hover {
@@ -44221,8 +43137,8 @@ video {
   }
 
   .md\:hover\:from-oranges-deeper:hover {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .md\:hover\:via-transparent:hover {
@@ -44700,29 +43616,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .md\:hover\:via-orang:hover {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .md\:hover\:via-fontColor1:hover {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .md\:hover\:via-buttonFrom:hover {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .md\:hover\:via-buttonTo:hover {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .md\:hover\:via-oranges-light:hover {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .md\:hover\:via-oranges-deep:hover {
@@ -44731,8 +43627,8 @@ video {
   }
 
   .md\:hover\:via-oranges-deeper:hover {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .md\:hover\:to-transparent:hover {
@@ -45115,24 +44011,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .md\:hover\:to-orang:hover {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .md\:hover\:to-fontColor1:hover {
-    --gradient-to-color: #E41C31;
-  }
-
-  .md\:hover\:to-buttonFrom:hover {
-    --gradient-to-color: #EC3620;
-  }
-
-  .md\:hover\:to-buttonTo:hover {
-    --gradient-to-color: #E32624;
-  }
-
   .md\:hover\:to-oranges-light:hover {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .md\:hover\:to-oranges-deep:hover {
@@ -45140,7 +44020,7 @@ video {
   }
 
   .md\:hover\:to-oranges-deeper:hover {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .md\:focus\:from-transparent:focus {
@@ -45618,29 +44498,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .md\:focus\:from-orang:focus {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .md\:focus\:from-fontColor1:focus {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .md\:focus\:from-buttonFrom:focus {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .md\:focus\:from-buttonTo:focus {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .md\:focus\:from-oranges-light:focus {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .md\:focus\:from-oranges-deep:focus {
@@ -45649,8 +44509,8 @@ video {
   }
 
   .md\:focus\:from-oranges-deeper:focus {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .md\:focus\:via-transparent:focus {
@@ -46128,29 +44988,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .md\:focus\:via-orang:focus {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .md\:focus\:via-fontColor1:focus {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .md\:focus\:via-buttonFrom:focus {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .md\:focus\:via-buttonTo:focus {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .md\:focus\:via-oranges-light:focus {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .md\:focus\:via-oranges-deep:focus {
@@ -46159,8 +44999,8 @@ video {
   }
 
   .md\:focus\:via-oranges-deeper:focus {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .md\:focus\:to-transparent:focus {
@@ -46543,24 +45383,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .md\:focus\:to-orang:focus {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .md\:focus\:to-fontColor1:focus {
-    --gradient-to-color: #E41C31;
-  }
-
-  .md\:focus\:to-buttonFrom:focus {
-    --gradient-to-color: #EC3620;
-  }
-
-  .md\:focus\:to-buttonTo:focus {
-    --gradient-to-color: #E32624;
-  }
-
   .md\:focus\:to-oranges-light:focus {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .md\:focus\:to-oranges-deep:focus {
@@ -46568,7 +45392,7 @@ video {
   }
 
   .md\:focus\:to-oranges-deeper:focus {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .md\:bg-opacity-0 {
@@ -47277,34 +46101,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .md\:border-orang {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .md\:border-fontColor1 {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .md\:border-buttonFrom {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .md\:border-buttonTo {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .md\:border-oranges-light {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .md\:border-oranges-deep {
@@ -47315,8 +46115,8 @@ video {
 
   .md\:border-oranges-deeper {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .md\:hover\:border-transparent:hover {
@@ -47885,34 +46685,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .md\:hover\:border-orang:hover {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .md\:hover\:border-fontColor1:hover {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .md\:hover\:border-buttonFrom:hover {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .md\:hover\:border-buttonTo:hover {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .md\:hover\:border-oranges-light:hover {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .md\:hover\:border-oranges-deep:hover {
@@ -47923,8 +46699,8 @@ video {
 
   .md\:hover\:border-oranges-deeper:hover {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .md\:focus\:border-transparent:focus {
@@ -48493,34 +47269,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .md\:focus\:border-orang:focus {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .md\:focus\:border-fontColor1:focus {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .md\:focus\:border-buttonFrom:focus {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .md\:focus\:border-buttonTo:focus {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .md\:focus\:border-oranges-light:focus {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .md\:focus\:border-oranges-deep:focus {
@@ -48531,8 +47283,8 @@ video {
 
   .md\:focus\:border-oranges-deeper:focus {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .md\:border-opacity-0 {
@@ -52467,34 +51219,10 @@ video {
     color: rgba(246, 246, 246, var(--placeholder-opacity));
   }
 
-  .md\:placeholder-orang::placeholder {
-    --placeholder-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--placeholder-opacity));
-  }
-
-  .md\:placeholder-fontColor1::placeholder {
-    --placeholder-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
-  }
-
-  .md\:placeholder-buttonFrom::placeholder {
-    --placeholder-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--placeholder-opacity));
-  }
-
-  .md\:placeholder-buttonTo::placeholder {
-    --placeholder-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--placeholder-opacity));
-  }
-
   .md\:placeholder-oranges-light::placeholder {
     --placeholder-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--placeholder-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--placeholder-opacity));
   }
 
   .md\:placeholder-oranges-deep::placeholder {
@@ -52505,8 +51233,8 @@ video {
 
   .md\:placeholder-oranges-deeper::placeholder {
     --placeholder-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--placeholder-opacity));
   }
 
   .md\:focus\:placeholder-transparent:focus::placeholder {
@@ -53075,34 +51803,10 @@ video {
     color: rgba(246, 246, 246, var(--placeholder-opacity));
   }
 
-  .md\:focus\:placeholder-orang:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--placeholder-opacity));
-  }
-
-  .md\:focus\:placeholder-fontColor1:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
-  }
-
-  .md\:focus\:placeholder-buttonFrom:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--placeholder-opacity));
-  }
-
-  .md\:focus\:placeholder-buttonTo:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--placeholder-opacity));
-  }
-
   .md\:focus\:placeholder-oranges-light:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--placeholder-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--placeholder-opacity));
   }
 
   .md\:focus\:placeholder-oranges-deep:focus::placeholder {
@@ -53113,8 +51817,8 @@ video {
 
   .md\:focus\:placeholder-oranges-deeper:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--placeholder-opacity));
   }
 
   .md\:placeholder-opacity-0::placeholder {
@@ -53997,34 +52701,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .md\:text-orang {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .md\:text-fontColor1 {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .md\:text-buttonFrom {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .md\:text-buttonTo {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .md\:text-oranges-light {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .md\:text-oranges-deep {
@@ -54035,8 +52715,8 @@ video {
 
   .md\:text-oranges-deeper {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .md\:hover\:text-transparent:hover {
@@ -54605,34 +53285,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .md\:hover\:text-orang:hover {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .md\:hover\:text-fontColor1:hover {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .md\:hover\:text-buttonFrom:hover {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .md\:hover\:text-buttonTo:hover {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .md\:hover\:text-oranges-light:hover {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .md\:hover\:text-oranges-deep:hover {
@@ -54643,8 +53299,8 @@ video {
 
   .md\:hover\:text-oranges-deeper:hover {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .md\:focus\:text-transparent:focus {
@@ -55213,34 +53869,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .md\:focus\:text-orang:focus {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .md\:focus\:text-fontColor1:focus {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .md\:focus\:text-buttonFrom:focus {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .md\:focus\:text-buttonTo:focus {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .md\:focus\:text-oranges-light:focus {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .md\:focus\:text-oranges-deep:focus {
@@ -55251,8 +53883,8 @@ video {
 
   .md\:focus\:text-oranges-deeper:focus {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .md\:text-opacity-0 {
@@ -59551,34 +58183,10 @@ video {
     border-color: rgba(246, 246, 246, var(--divide-opacity));
   }
 
-  .lg\:divide-orang > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--divide-opacity));
-  }
-
-  .lg\:divide-fontColor1 > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--divide-opacity));
-  }
-
-  .lg\:divide-buttonFrom > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--divide-opacity));
-  }
-
-  .lg\:divide-buttonTo > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--divide-opacity));
-  }
-
   .lg\:divide-oranges-light > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--divide-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--divide-opacity));
   }
 
   .lg\:divide-oranges-deep > :not(template) ~ :not(template) {
@@ -59589,8 +58197,8 @@ video {
 
   .lg\:divide-oranges-deeper > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--divide-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--divide-opacity));
   }
 
   .lg\:divide-solid > :not(template) ~ :not(template) {
@@ -60279,34 +58887,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .lg\:bg-orang {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .lg\:bg-fontColor1 {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .lg\:bg-buttonFrom {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .lg\:bg-buttonTo {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .lg\:bg-oranges-light {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .lg\:bg-oranges-deep {
@@ -60317,8 +58901,8 @@ video {
 
   .lg\:bg-oranges-deeper {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .lg\:hover\:bg-transparent:hover {
@@ -60887,34 +59471,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .lg\:hover\:bg-orang:hover {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .lg\:hover\:bg-fontColor1:hover {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .lg\:hover\:bg-buttonFrom:hover {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .lg\:hover\:bg-buttonTo:hover {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .lg\:hover\:bg-oranges-light:hover {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .lg\:hover\:bg-oranges-deep:hover {
@@ -60925,8 +59485,8 @@ video {
 
   .lg\:hover\:bg-oranges-deeper:hover {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-transparent:focus {
@@ -61495,34 +60055,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .lg\:focus\:bg-orang:focus {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .lg\:focus\:bg-fontColor1:focus {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .lg\:focus\:bg-buttonFrom:focus {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .lg\:focus\:bg-buttonTo:focus {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .lg\:focus\:bg-oranges-light:focus {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-oranges-deep:focus {
@@ -61533,8 +60069,8 @@ video {
 
   .lg\:focus\:bg-oranges-deeper:focus {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .lg\:bg-none {
@@ -62048,29 +60584,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .lg\:from-orang {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .lg\:from-fontColor1 {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .lg\:from-buttonFrom {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .lg\:from-buttonTo {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .lg\:from-oranges-light {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .lg\:from-oranges-deep {
@@ -62079,8 +60595,8 @@ video {
   }
 
   .lg\:from-oranges-deeper {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .lg\:via-transparent {
@@ -62558,29 +61074,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .lg\:via-orang {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .lg\:via-fontColor1 {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .lg\:via-buttonFrom {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .lg\:via-buttonTo {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .lg\:via-oranges-light {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .lg\:via-oranges-deep {
@@ -62589,8 +61085,8 @@ video {
   }
 
   .lg\:via-oranges-deeper {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .lg\:to-transparent {
@@ -62973,24 +61469,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .lg\:to-orang {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .lg\:to-fontColor1 {
-    --gradient-to-color: #E41C31;
-  }
-
-  .lg\:to-buttonFrom {
-    --gradient-to-color: #EC3620;
-  }
-
-  .lg\:to-buttonTo {
-    --gradient-to-color: #E32624;
-  }
-
   .lg\:to-oranges-light {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .lg\:to-oranges-deep {
@@ -62998,7 +61478,7 @@ video {
   }
 
   .lg\:to-oranges-deeper {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .lg\:hover\:from-transparent:hover {
@@ -63476,29 +61956,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .lg\:hover\:from-orang:hover {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .lg\:hover\:from-fontColor1:hover {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .lg\:hover\:from-buttonFrom:hover {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .lg\:hover\:from-buttonTo:hover {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .lg\:hover\:from-oranges-light:hover {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .lg\:hover\:from-oranges-deep:hover {
@@ -63507,8 +61967,8 @@ video {
   }
 
   .lg\:hover\:from-oranges-deeper:hover {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .lg\:hover\:via-transparent:hover {
@@ -63986,29 +62446,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .lg\:hover\:via-orang:hover {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .lg\:hover\:via-fontColor1:hover {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .lg\:hover\:via-buttonFrom:hover {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .lg\:hover\:via-buttonTo:hover {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .lg\:hover\:via-oranges-light:hover {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .lg\:hover\:via-oranges-deep:hover {
@@ -64017,8 +62457,8 @@ video {
   }
 
   .lg\:hover\:via-oranges-deeper:hover {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .lg\:hover\:to-transparent:hover {
@@ -64401,24 +62841,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .lg\:hover\:to-orang:hover {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .lg\:hover\:to-fontColor1:hover {
-    --gradient-to-color: #E41C31;
-  }
-
-  .lg\:hover\:to-buttonFrom:hover {
-    --gradient-to-color: #EC3620;
-  }
-
-  .lg\:hover\:to-buttonTo:hover {
-    --gradient-to-color: #E32624;
-  }
-
   .lg\:hover\:to-oranges-light:hover {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .lg\:hover\:to-oranges-deep:hover {
@@ -64426,7 +62850,7 @@ video {
   }
 
   .lg\:hover\:to-oranges-deeper:hover {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .lg\:focus\:from-transparent:focus {
@@ -64904,29 +63328,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .lg\:focus\:from-orang:focus {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .lg\:focus\:from-fontColor1:focus {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .lg\:focus\:from-buttonFrom:focus {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .lg\:focus\:from-buttonTo:focus {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .lg\:focus\:from-oranges-light:focus {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .lg\:focus\:from-oranges-deep:focus {
@@ -64935,8 +63339,8 @@ video {
   }
 
   .lg\:focus\:from-oranges-deeper:focus {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .lg\:focus\:via-transparent:focus {
@@ -65414,29 +63818,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .lg\:focus\:via-orang:focus {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .lg\:focus\:via-fontColor1:focus {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .lg\:focus\:via-buttonFrom:focus {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .lg\:focus\:via-buttonTo:focus {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .lg\:focus\:via-oranges-light:focus {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .lg\:focus\:via-oranges-deep:focus {
@@ -65445,8 +63829,8 @@ video {
   }
 
   .lg\:focus\:via-oranges-deeper:focus {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .lg\:focus\:to-transparent:focus {
@@ -65829,24 +64213,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .lg\:focus\:to-orang:focus {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .lg\:focus\:to-fontColor1:focus {
-    --gradient-to-color: #E41C31;
-  }
-
-  .lg\:focus\:to-buttonFrom:focus {
-    --gradient-to-color: #EC3620;
-  }
-
-  .lg\:focus\:to-buttonTo:focus {
-    --gradient-to-color: #E32624;
-  }
-
   .lg\:focus\:to-oranges-light:focus {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .lg\:focus\:to-oranges-deep:focus {
@@ -65854,7 +64222,7 @@ video {
   }
 
   .lg\:focus\:to-oranges-deeper:focus {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .lg\:bg-opacity-0 {
@@ -66563,34 +64931,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .lg\:border-orang {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .lg\:border-fontColor1 {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .lg\:border-buttonFrom {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .lg\:border-buttonTo {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .lg\:border-oranges-light {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .lg\:border-oranges-deep {
@@ -66601,8 +64945,8 @@ video {
 
   .lg\:border-oranges-deeper {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .lg\:hover\:border-transparent:hover {
@@ -67171,34 +65515,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .lg\:hover\:border-orang:hover {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .lg\:hover\:border-fontColor1:hover {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .lg\:hover\:border-buttonFrom:hover {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .lg\:hover\:border-buttonTo:hover {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .lg\:hover\:border-oranges-light:hover {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .lg\:hover\:border-oranges-deep:hover {
@@ -67209,8 +65529,8 @@ video {
 
   .lg\:hover\:border-oranges-deeper:hover {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .lg\:focus\:border-transparent:focus {
@@ -67779,34 +66099,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .lg\:focus\:border-orang:focus {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .lg\:focus\:border-fontColor1:focus {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .lg\:focus\:border-buttonFrom:focus {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .lg\:focus\:border-buttonTo:focus {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .lg\:focus\:border-oranges-light:focus {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .lg\:focus\:border-oranges-deep:focus {
@@ -67817,8 +66113,8 @@ video {
 
   .lg\:focus\:border-oranges-deeper:focus {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .lg\:border-opacity-0 {
@@ -71753,34 +70049,10 @@ video {
     color: rgba(246, 246, 246, var(--placeholder-opacity));
   }
 
-  .lg\:placeholder-orang::placeholder {
-    --placeholder-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--placeholder-opacity));
-  }
-
-  .lg\:placeholder-fontColor1::placeholder {
-    --placeholder-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
-  }
-
-  .lg\:placeholder-buttonFrom::placeholder {
-    --placeholder-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--placeholder-opacity));
-  }
-
-  .lg\:placeholder-buttonTo::placeholder {
-    --placeholder-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--placeholder-opacity));
-  }
-
   .lg\:placeholder-oranges-light::placeholder {
     --placeholder-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--placeholder-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--placeholder-opacity));
   }
 
   .lg\:placeholder-oranges-deep::placeholder {
@@ -71791,8 +70063,8 @@ video {
 
   .lg\:placeholder-oranges-deeper::placeholder {
     --placeholder-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-transparent:focus::placeholder {
@@ -72361,34 +70633,10 @@ video {
     color: rgba(246, 246, 246, var(--placeholder-opacity));
   }
 
-  .lg\:focus\:placeholder-orang:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--placeholder-opacity));
-  }
-
-  .lg\:focus\:placeholder-fontColor1:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
-  }
-
-  .lg\:focus\:placeholder-buttonFrom:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--placeholder-opacity));
-  }
-
-  .lg\:focus\:placeholder-buttonTo:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--placeholder-opacity));
-  }
-
   .lg\:focus\:placeholder-oranges-light:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--placeholder-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-oranges-deep:focus::placeholder {
@@ -72399,8 +70647,8 @@ video {
 
   .lg\:focus\:placeholder-oranges-deeper:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--placeholder-opacity));
   }
 
   .lg\:placeholder-opacity-0::placeholder {
@@ -73283,34 +71531,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .lg\:text-orang {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .lg\:text-fontColor1 {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .lg\:text-buttonFrom {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .lg\:text-buttonTo {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .lg\:text-oranges-light {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .lg\:text-oranges-deep {
@@ -73321,8 +71545,8 @@ video {
 
   .lg\:text-oranges-deeper {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .lg\:hover\:text-transparent:hover {
@@ -73891,34 +72115,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .lg\:hover\:text-orang:hover {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .lg\:hover\:text-fontColor1:hover {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .lg\:hover\:text-buttonFrom:hover {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .lg\:hover\:text-buttonTo:hover {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .lg\:hover\:text-oranges-light:hover {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .lg\:hover\:text-oranges-deep:hover {
@@ -73929,8 +72129,8 @@ video {
 
   .lg\:hover\:text-oranges-deeper:hover {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .lg\:focus\:text-transparent:focus {
@@ -74499,34 +72699,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .lg\:focus\:text-orang:focus {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .lg\:focus\:text-fontColor1:focus {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .lg\:focus\:text-buttonFrom:focus {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .lg\:focus\:text-buttonTo:focus {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .lg\:focus\:text-oranges-light:focus {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .lg\:focus\:text-oranges-deep:focus {
@@ -74537,8 +72713,8 @@ video {
 
   .lg\:focus\:text-oranges-deeper:focus {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .lg\:text-opacity-0 {
@@ -78837,34 +77013,10 @@ video {
     border-color: rgba(246, 246, 246, var(--divide-opacity));
   }
 
-  .xl\:divide-orang > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--divide-opacity));
-  }
-
-  .xl\:divide-fontColor1 > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--divide-opacity));
-  }
-
-  .xl\:divide-buttonFrom > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--divide-opacity));
-  }
-
-  .xl\:divide-buttonTo > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--divide-opacity));
-  }
-
   .xl\:divide-oranges-light > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--divide-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--divide-opacity));
   }
 
   .xl\:divide-oranges-deep > :not(template) ~ :not(template) {
@@ -78875,8 +77027,8 @@ video {
 
   .xl\:divide-oranges-deeper > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--divide-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--divide-opacity));
   }
 
   .xl\:divide-solid > :not(template) ~ :not(template) {
@@ -79565,34 +77717,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .xl\:bg-orang {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .xl\:bg-fontColor1 {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .xl\:bg-buttonFrom {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .xl\:bg-buttonTo {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .xl\:bg-oranges-light {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .xl\:bg-oranges-deep {
@@ -79603,8 +77731,8 @@ video {
 
   .xl\:bg-oranges-deeper {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .xl\:hover\:bg-transparent:hover {
@@ -80173,34 +78301,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .xl\:hover\:bg-orang:hover {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .xl\:hover\:bg-fontColor1:hover {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .xl\:hover\:bg-buttonFrom:hover {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .xl\:hover\:bg-buttonTo:hover {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .xl\:hover\:bg-oranges-light:hover {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .xl\:hover\:bg-oranges-deep:hover {
@@ -80211,8 +78315,8 @@ video {
 
   .xl\:hover\:bg-oranges-deeper:hover {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-transparent:focus {
@@ -80781,34 +78885,10 @@ video {
     background-color: rgba(246, 246, 246, var(--bg-opacity));
   }
 
-  .xl\:focus\:bg-orang:focus {
-    --bg-opacity: 1;
-    background-color: #EE3C38;
-    background-color: rgba(238, 60, 56, var(--bg-opacity));
-  }
-
-  .xl\:focus\:bg-fontColor1:focus {
-    --bg-opacity: 1;
-    background-color: #E41C31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
-  }
-
-  .xl\:focus\:bg-buttonFrom:focus {
-    --bg-opacity: 1;
-    background-color: #EC3620;
-    background-color: rgba(236, 54, 32, var(--bg-opacity));
-  }
-
-  .xl\:focus\:bg-buttonTo:focus {
-    --bg-opacity: 1;
-    background-color: #E32624;
-    background-color: rgba(227, 38, 36, var(--bg-opacity));
-  }
-
   .xl\:focus\:bg-oranges-light:focus {
     --bg-opacity: 1;
-    background-color: #e45320;
-    background-color: rgba(228, 83, 32, var(--bg-opacity));
+    background-color: #EEAC5A;
+    background-color: rgba(238, 172, 90, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-oranges-deep:focus {
@@ -80819,8 +78899,8 @@ video {
 
   .xl\:focus\:bg-oranges-deeper:focus {
     --bg-opacity: 1;
-    background-color: #e41c31;
-    background-color: rgba(228, 28, 49, var(--bg-opacity));
+    background-color: #E70E02;
+    background-color: rgba(231, 14, 2, var(--bg-opacity));
   }
 
   .xl\:bg-none {
@@ -81334,29 +79414,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .xl\:from-orang {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .xl\:from-fontColor1 {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .xl\:from-buttonFrom {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .xl\:from-buttonTo {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .xl\:from-oranges-light {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .xl\:from-oranges-deep {
@@ -81365,8 +79425,8 @@ video {
   }
 
   .xl\:from-oranges-deeper {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .xl\:via-transparent {
@@ -81844,29 +79904,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .xl\:via-orang {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .xl\:via-fontColor1 {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .xl\:via-buttonFrom {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .xl\:via-buttonTo {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .xl\:via-oranges-light {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .xl\:via-oranges-deep {
@@ -81875,8 +79915,8 @@ video {
   }
 
   .xl\:via-oranges-deeper {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .xl\:to-transparent {
@@ -82259,24 +80299,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .xl\:to-orang {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .xl\:to-fontColor1 {
-    --gradient-to-color: #E41C31;
-  }
-
-  .xl\:to-buttonFrom {
-    --gradient-to-color: #EC3620;
-  }
-
-  .xl\:to-buttonTo {
-    --gradient-to-color: #E32624;
-  }
-
   .xl\:to-oranges-light {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .xl\:to-oranges-deep {
@@ -82284,7 +80308,7 @@ video {
   }
 
   .xl\:to-oranges-deeper {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .xl\:hover\:from-transparent:hover {
@@ -82762,29 +80786,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .xl\:hover\:from-orang:hover {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .xl\:hover\:from-fontColor1:hover {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .xl\:hover\:from-buttonFrom:hover {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .xl\:hover\:from-buttonTo:hover {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .xl\:hover\:from-oranges-light:hover {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .xl\:hover\:from-oranges-deep:hover {
@@ -82793,8 +80797,8 @@ video {
   }
 
   .xl\:hover\:from-oranges-deeper:hover {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .xl\:hover\:via-transparent:hover {
@@ -83272,29 +81276,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .xl\:hover\:via-orang:hover {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .xl\:hover\:via-fontColor1:hover {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .xl\:hover\:via-buttonFrom:hover {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .xl\:hover\:via-buttonTo:hover {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .xl\:hover\:via-oranges-light:hover {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .xl\:hover\:via-oranges-deep:hover {
@@ -83303,8 +81287,8 @@ video {
   }
 
   .xl\:hover\:via-oranges-deeper:hover {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .xl\:hover\:to-transparent:hover {
@@ -83687,24 +81671,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .xl\:hover\:to-orang:hover {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .xl\:hover\:to-fontColor1:hover {
-    --gradient-to-color: #E41C31;
-  }
-
-  .xl\:hover\:to-buttonFrom:hover {
-    --gradient-to-color: #EC3620;
-  }
-
-  .xl\:hover\:to-buttonTo:hover {
-    --gradient-to-color: #E32624;
-  }
-
   .xl\:hover\:to-oranges-light:hover {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .xl\:hover\:to-oranges-deep:hover {
@@ -83712,7 +81680,7 @@ video {
   }
 
   .xl\:hover\:to-oranges-deeper:hover {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .xl\:focus\:from-transparent:focus {
@@ -84190,29 +82158,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .xl\:focus\:from-orang:focus {
-    --gradient-from-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .xl\:focus\:from-fontColor1:focus {
-    --gradient-from-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .xl\:focus\:from-buttonFrom:focus {
-    --gradient-from-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .xl\:focus\:from-buttonTo:focus {
-    --gradient-from-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .xl\:focus\:from-oranges-light:focus {
-    --gradient-from-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-from-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .xl\:focus\:from-oranges-deep:focus {
@@ -84221,8 +82169,8 @@ video {
   }
 
   .xl\:focus\:from-oranges-deeper:focus {
-    --gradient-from-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-from-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .xl\:focus\:via-transparent:focus {
@@ -84700,29 +82648,9 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(246, 246, 246, 0));
   }
 
-  .xl\:focus\:via-orang:focus {
-    --gradient-via-color: #EE3C38;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 60, 56, 0));
-  }
-
-  .xl\:focus\:via-fontColor1:focus {
-    --gradient-via-color: #E41C31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
-  }
-
-  .xl\:focus\:via-buttonFrom:focus {
-    --gradient-via-color: #EC3620;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 54, 32, 0));
-  }
-
-  .xl\:focus\:via-buttonTo:focus {
-    --gradient-via-color: #E32624;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(227, 38, 36, 0));
-  }
-
   .xl\:focus\:via-oranges-light:focus {
-    --gradient-via-color: #e45320;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 83, 32, 0));
+    --gradient-via-color: #EEAC5A;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(238, 172, 90, 0));
   }
 
   .xl\:focus\:via-oranges-deep:focus {
@@ -84731,8 +82659,8 @@ video {
   }
 
   .xl\:focus\:via-oranges-deeper:focus {
-    --gradient-via-color: #e41c31;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(228, 28, 49, 0));
+    --gradient-via-color: #E70E02;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(231, 14, 2, 0));
   }
 
   .xl\:focus\:to-transparent:focus {
@@ -85115,24 +83043,8 @@ video {
     --gradient-to-color: #F6F6F6;
   }
 
-  .xl\:focus\:to-orang:focus {
-    --gradient-to-color: #EE3C38;
-  }
-
-  .xl\:focus\:to-fontColor1:focus {
-    --gradient-to-color: #E41C31;
-  }
-
-  .xl\:focus\:to-buttonFrom:focus {
-    --gradient-to-color: #EC3620;
-  }
-
-  .xl\:focus\:to-buttonTo:focus {
-    --gradient-to-color: #E32624;
-  }
-
   .xl\:focus\:to-oranges-light:focus {
-    --gradient-to-color: #e45320;
+    --gradient-to-color: #EEAC5A;
   }
 
   .xl\:focus\:to-oranges-deep:focus {
@@ -85140,7 +83052,7 @@ video {
   }
 
   .xl\:focus\:to-oranges-deeper:focus {
-    --gradient-to-color: #e41c31;
+    --gradient-to-color: #E70E02;
   }
 
   .xl\:bg-opacity-0 {
@@ -85849,34 +83761,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .xl\:border-orang {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .xl\:border-fontColor1 {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .xl\:border-buttonFrom {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .xl\:border-buttonTo {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .xl\:border-oranges-light {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .xl\:border-oranges-deep {
@@ -85887,8 +83775,8 @@ video {
 
   .xl\:border-oranges-deeper {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .xl\:hover\:border-transparent:hover {
@@ -86457,34 +84345,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .xl\:hover\:border-orang:hover {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .xl\:hover\:border-fontColor1:hover {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .xl\:hover\:border-buttonFrom:hover {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .xl\:hover\:border-buttonTo:hover {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .xl\:hover\:border-oranges-light:hover {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .xl\:hover\:border-oranges-deep:hover {
@@ -86495,8 +84359,8 @@ video {
 
   .xl\:hover\:border-oranges-deeper:hover {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .xl\:focus\:border-transparent:focus {
@@ -87065,34 +84929,10 @@ video {
     border-color: rgba(246, 246, 246, var(--border-opacity));
   }
 
-  .xl\:focus\:border-orang:focus {
-    --border-opacity: 1;
-    border-color: #EE3C38;
-    border-color: rgba(238, 60, 56, var(--border-opacity));
-  }
-
-  .xl\:focus\:border-fontColor1:focus {
-    --border-opacity: 1;
-    border-color: #E41C31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
-  }
-
-  .xl\:focus\:border-buttonFrom:focus {
-    --border-opacity: 1;
-    border-color: #EC3620;
-    border-color: rgba(236, 54, 32, var(--border-opacity));
-  }
-
-  .xl\:focus\:border-buttonTo:focus {
-    --border-opacity: 1;
-    border-color: #E32624;
-    border-color: rgba(227, 38, 36, var(--border-opacity));
-  }
-
   .xl\:focus\:border-oranges-light:focus {
     --border-opacity: 1;
-    border-color: #e45320;
-    border-color: rgba(228, 83, 32, var(--border-opacity));
+    border-color: #EEAC5A;
+    border-color: rgba(238, 172, 90, var(--border-opacity));
   }
 
   .xl\:focus\:border-oranges-deep:focus {
@@ -87103,8 +84943,8 @@ video {
 
   .xl\:focus\:border-oranges-deeper:focus {
     --border-opacity: 1;
-    border-color: #e41c31;
-    border-color: rgba(228, 28, 49, var(--border-opacity));
+    border-color: #E70E02;
+    border-color: rgba(231, 14, 2, var(--border-opacity));
   }
 
   .xl\:border-opacity-0 {
@@ -91039,34 +88879,10 @@ video {
     color: rgba(246, 246, 246, var(--placeholder-opacity));
   }
 
-  .xl\:placeholder-orang::placeholder {
-    --placeholder-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--placeholder-opacity));
-  }
-
-  .xl\:placeholder-fontColor1::placeholder {
-    --placeholder-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
-  }
-
-  .xl\:placeholder-buttonFrom::placeholder {
-    --placeholder-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--placeholder-opacity));
-  }
-
-  .xl\:placeholder-buttonTo::placeholder {
-    --placeholder-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--placeholder-opacity));
-  }
-
   .xl\:placeholder-oranges-light::placeholder {
     --placeholder-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--placeholder-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--placeholder-opacity));
   }
 
   .xl\:placeholder-oranges-deep::placeholder {
@@ -91077,8 +88893,8 @@ video {
 
   .xl\:placeholder-oranges-deeper::placeholder {
     --placeholder-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-transparent:focus::placeholder {
@@ -91647,34 +89463,10 @@ video {
     color: rgba(246, 246, 246, var(--placeholder-opacity));
   }
 
-  .xl\:focus\:placeholder-orang:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--placeholder-opacity));
-  }
-
-  .xl\:focus\:placeholder-fontColor1:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
-  }
-
-  .xl\:focus\:placeholder-buttonFrom:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--placeholder-opacity));
-  }
-
-  .xl\:focus\:placeholder-buttonTo:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--placeholder-opacity));
-  }
-
   .xl\:focus\:placeholder-oranges-light:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--placeholder-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-oranges-deep:focus::placeholder {
@@ -91685,8 +89477,8 @@ video {
 
   .xl\:focus\:placeholder-oranges-deeper:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--placeholder-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--placeholder-opacity));
   }
 
   .xl\:placeholder-opacity-0::placeholder {
@@ -92569,34 +90361,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .xl\:text-orang {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .xl\:text-fontColor1 {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .xl\:text-buttonFrom {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .xl\:text-buttonTo {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .xl\:text-oranges-light {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .xl\:text-oranges-deep {
@@ -92607,8 +90375,8 @@ video {
 
   .xl\:text-oranges-deeper {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .xl\:hover\:text-transparent:hover {
@@ -93177,34 +90945,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .xl\:hover\:text-orang:hover {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .xl\:hover\:text-fontColor1:hover {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .xl\:hover\:text-buttonFrom:hover {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .xl\:hover\:text-buttonTo:hover {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .xl\:hover\:text-oranges-light:hover {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .xl\:hover\:text-oranges-deep:hover {
@@ -93215,8 +90959,8 @@ video {
 
   .xl\:hover\:text-oranges-deeper:hover {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .xl\:focus\:text-transparent:focus {
@@ -93785,34 +91529,10 @@ video {
     color: rgba(246, 246, 246, var(--text-opacity));
   }
 
-  .xl\:focus\:text-orang:focus {
-    --text-opacity: 1;
-    color: #EE3C38;
-    color: rgba(238, 60, 56, var(--text-opacity));
-  }
-
-  .xl\:focus\:text-fontColor1:focus {
-    --text-opacity: 1;
-    color: #E41C31;
-    color: rgba(228, 28, 49, var(--text-opacity));
-  }
-
-  .xl\:focus\:text-buttonFrom:focus {
-    --text-opacity: 1;
-    color: #EC3620;
-    color: rgba(236, 54, 32, var(--text-opacity));
-  }
-
-  .xl\:focus\:text-buttonTo:focus {
-    --text-opacity: 1;
-    color: #E32624;
-    color: rgba(227, 38, 36, var(--text-opacity));
-  }
-
   .xl\:focus\:text-oranges-light:focus {
     --text-opacity: 1;
-    color: #e45320;
-    color: rgba(228, 83, 32, var(--text-opacity));
+    color: #EEAC5A;
+    color: rgba(238, 172, 90, var(--text-opacity));
   }
 
   .xl\:focus\:text-oranges-deep:focus {
@@ -93823,8 +91543,8 @@ video {
 
   .xl\:focus\:text-oranges-deeper:focus {
     --text-opacity: 1;
-    color: #e41c31;
-    color: rgba(228, 28, 49, var(--text-opacity));
+    color: #E70E02;
+    color: rgba(231, 14, 2, var(--text-opacity));
   }
 
   .xl\:text-opacity-0 {

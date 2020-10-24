@@ -7,12 +7,15 @@ import Modal from "./App/Components/Modal";
 
 const App = () => {
   return (
-    <div className="bg-background h-screen flex justify-center items-center">
+    <div
+      className="bg-background h-screen flex justify-center items-center"
+      dir="rtl"
+    >
       {/* Show errors message */}
       <Errors />
       {/* Show loading state */}
       <Loading />
-      {/* BackGround images */}
+      {/* BackGrounds images */}
       {upperCircle}
       {bottomCircle}
       {/* Home component */}

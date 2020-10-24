@@ -1,5 +1,6 @@
 import React, { createContext, useState } from "react";
 export const ErrorContext = createContext();
+
 const ErrorProvider = ({ children }) => {
   const [error, setError] = useState({
     error: false,
