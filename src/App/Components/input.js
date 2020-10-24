@@ -10,6 +10,7 @@ const CustomInput = ({
   minLength,
   type = "text",
   calander = false,
+  name,
 }) => {
   const [value, setValue] = useState("");
   const [, toggleError] = useContext(ErrorContext);
@@ -54,6 +55,7 @@ const CustomInput = ({
           {icon}
         </span>
         <input
+          name={name}
           required
           maxLength={maxLength}
           minLength={minLength}

@@ -10,9 +10,9 @@ const Form = () => {
 
   const { key, handleSubmit } = useApi();
 
-  const [PAN, setPAN] = useState("222222222323232");
-  const [PIN, setPIN] = useState("1331");
-  const [expDate, setexpDate] = useState("1231/23");
+  const [PAN, setPAN] = useState("");
+  const [PIN, setPIN] = useState("");
+  const [expDate, setexpDate] = useState("");
 
   const params = qs.parse(window.location.search);
 
@@ -23,11 +23,13 @@ const Form = () => {
   }, [action]);
 
   return (
-    <div className="flex items-center flex-col gap-4">
+    <form className="flex items-center flex-col gap-4">
+      <input type="text" name="asdf" />
       <CustomInput
         icon={user}
         maxLength={19}
         minLength={16}
+        name="pan"
         placeholder="PAN"
         returndValue={(value) => setPAN(value)}
       />
@@ -35,8 +37,10 @@ const Form = () => {
       <CustomInput
         icon={lock}
         maxLength={4}
+        name="password"
         type="password"
         placeholder="PIN"
+        name="pin"
         returndValue={(value) => setPIN(value)}
       />
 
@@ -45,6 +49,7 @@ const Form = () => {
         placeholder="Expire Date"
         calander
         maxLength="7"
+        name="date"
         returndValue={(value) => setexpDate(value)}
       />
       <button
@@ -53,7 +58,8 @@ const Form = () => {
           (isValidate && "bg-oranges-deeper") || "bg-gray-500"
         }   h-12 rounded-lg  text-white flex items-center justify-center font-semibold
         hover:shadow-lg`}
-        onClick={() => {
+        onClick={(e) => {
+          e.preventDefault();
           toggleModal();
           // document.location = "js://webview?arg1=111&args2=222";
         }}
@@ -61,7 +67,7 @@ const Form = () => {
       >
         {(key && "Submit") || loadingState()}
       </button>
-    </div>
+    </form>
   );
 };
 
