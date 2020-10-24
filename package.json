@@ -10,11 +10,13 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "i18next": "^19.8.2",
+    "jsencrypt": "^3.0.0-rc.1",
+    "query-string": "^6.13.5",
     "react": "latest",
     "react-dom": "latest",
+    "react-i18next": "^11.7.3",
     "react-scripts": "latest",
-    "query-string": "^6.13.5",
-    "jsencrypt": "^3.0.0-rc.1",
     "uuid": "^3.3.3"
   },
   "browserslist": {

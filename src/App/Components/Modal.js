@@ -31,12 +31,14 @@ const Modal = () => {
           <div className="font-semibold text-2xl text-gray-600">
             Are you sure ?
           </div>
-          <div className="text-gray-500 text">
-            Pay
+          <div className="text-gray-500 text whitespace-pre-line">
+            Pay {"  "}
             <span className="text-lg font-bold text-oranges-deeper">
+              {"  "}
               {params.amount}
+              {"  "}
             </span>
-            SDG
+            {"  "}SDG
           </div>
           <div className="flex justify-between w-full">
             <button

@@ -1,15 +1,18 @@
 import React from "react";
 import ErrorProvider from "./ErrorProvider";
+import LanguageProvider from "./LanguageProvider";
 import LoadingProvider from "./LoadingProvider";
 import ModalProvider from "./ModalProvider";
 
 const Store = ({ children }) => {
   return (
-    <ErrorProvider>
-      <ModalProvider>
-        <LoadingProvider>{children}</LoadingProvider>
-      </ModalProvider>
-    </ErrorProvider>
+    <LanguageProvider>
+      <ErrorProvider>
+        <ModalProvider>
+          <LoadingProvider>{children}</LoadingProvider>
+        </ModalProvider>
+      </ErrorProvider>
+    </LanguageProvider>
   );
 };
 
