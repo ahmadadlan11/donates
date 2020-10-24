@@ -24,7 +24,6 @@ const Form = () => {
 
   return (
     <form className="flex items-center flex-col gap-4">
-      <input type="text" name="asdf" />
       <CustomInput
         icon={user}
         maxLength={19}
