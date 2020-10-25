@@ -30,4 +30,4 @@ yarn-debug.log*
 yarn-error.log*
 
 .vercel
-src/App/style/App.css
+/src/App/style/App.css
