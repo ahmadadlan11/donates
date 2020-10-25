@@ -1,4 +1,10 @@
 <p align="center">
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/ahmadadlan11/noebs-web-portal)](https://github.com/ahmadadlan11/noebs-web-portal/issues)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+</p>
+
+<p align="center">
     <a href="https://soluspay.net">
       <img alt="NOEBS web portal" width="400" src=".github/NOEBS web portal.png">
     </a><br>
@@ -13,8 +19,6 @@ This application is build on top of [NOEBS](https://github.com/adonese/noebs/) t
 
 - :100: Customizable
 - Support multi languages Arabic,English
-
-
 
 ## How to use
 
