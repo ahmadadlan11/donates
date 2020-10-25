@@ -1,10 +1,10 @@
 {
-  "name": "create-react-app",
+  "name": "noebs-web-portal",
   "version": "4.0.0",
   "private": true,
   "scripts": {
+    "prestart": "postcss src/App/style/tailwind.css -o src/App/style/App.css",
     "start": "react-scripts start",
-    "build-Style": "postcss src/App/style/tailwind.css -o src/App/style/App.css",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
