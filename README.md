@@ -1,11 +1,20 @@
 <p align="center">
-    <a href="soluspay.net">
+    <a href="https://soluspay.net">
       <img alt="NOEBS web portal" width="400" src=".github/NOEBS web portal.png">
     </a><br>
     Fastest way to add payment in your App.
 </p>
 
 🚀 [See it live](https://vercel.com/)
+
+This application is build on top of [NOEBS](https://github.com/adonese/noebs/) to aprovide simple and clean payment subsystem for developers in sudan.
+
+## 📦 Features
+
+- :100: Customizable
+- Support multi languages Arabic,English
+
+
 
 ## How to use
 
