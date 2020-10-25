@@ -1,4 +1,4 @@
-# NOEBS Web Portal 💲
+<p align="center">NOEBS Web Portal 💲</p>
 
 ## How to use
 
