@@ -1,8 +1,11 @@
-<p align="center">
+<div align="center">
+
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/ahmadadlan11/noebs-web-portal)](https://github.com/ahmadadlan11/noebs-web-portal/issues)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-</p>
+
+</div>
+
 
 <p align="center">
     <a href="https://soluspay.net">
