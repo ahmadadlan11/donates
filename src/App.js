@@ -4,7 +4,7 @@ import Home from "./App/Screens/Home";
 import Errors from "./App/Components/Errors";
 import Loading from "./App/Components/Loading";
 import Modal from "./App/Components/Modal";
-import { languageAr } from "./App/assets/icons";
+import { LanguageIcon } from "./App/assets/icons";
 import { LanguageContext } from "./App/Store/LanguageProvider";
 
 const App = () => {
@@ -15,10 +15,10 @@ const App = () => {
       dir={language === "en" ? "ltr" : "rtl"}
     >
       <button
-        className="absolute top-0 right-0 m-8 z-30 flex items-center gap-4 p-1"
+        className="absolute top-0 right-0 m-8 z-30 flex items-center gap-4"
         onClick={() => toggleLanguage()}
       >
-        {languageAr}
+        <LanguageIcon language={language} />
       </button>
       {/* Show errors message */}
       <Errors />

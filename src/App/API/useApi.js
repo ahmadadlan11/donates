@@ -9,7 +9,7 @@ import { LoadingContext } from "../Store/LoadingProvider";
 const useApi = () => {
   const [key, setKey] = useState();
   const [, toggleError] = useContext(ErrorContext);
-  const [, toggleLoading] = useContext(LoadingContext);
+  const { setIsLoading } = useContext(LoadingContext);
 
   const getKey = async () => {
     let results;
@@ -30,7 +30,7 @@ const useApi = () => {
     }
     const body = await results.json();
     if (!results.ok) {
-      toggleError(body.details.responseMessage);
+      toggleError(body.details.responseMessage, "error");
     } else setKey(body.ebs_response.pubKeyValue);
   };
   useEffect(() => {
@@ -38,7 +38,7 @@ const useApi = () => {
   }, []);
 
   const handleSubmit = async ({ params, PAN, PIN, expDate }) => {
-    toggleLoading(true);
+    setIsLoading(true);
     const { IPIN, id } = generateIPin(PIN, key);
     let results;
     try {
@@ -66,18 +66,13 @@ const useApi = () => {
       );
     } catch (error) {
       toggleError("try again later", "error");
-      toggleLoading(false);
-      return;
     }
-
+    setIsLoading(false);
     const error = qs.parse(results.url.split("?")[1]);
 
     if (error.fail) {
-      toggleLoading(false);
       toggleError(error.code, "error");
-      return;
     } else toggleError("i think its success", "success");
-    toggleLoading(false);
   };
 
   return { key, handleSubmit };

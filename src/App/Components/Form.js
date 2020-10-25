@@ -10,9 +10,9 @@ const Form = () => {
 
   const { key, handleSubmit } = useApi();
 
-  const [PAN, setPAN] = useState("");
-  const [PIN, setPIN] = useState("");
-  const [expDate, setexpDate] = useState("");
+  const [PAN, setPAN] = useState("1231231231231231231");
+  const [PIN, setPIN] = useState("123123");
+  const [expDate, setexpDate] = useState("123123");
 
   const params = qs.parse(window.location.search);
 
@@ -60,7 +60,6 @@ const Form = () => {
         onClick={(e) => {
           e.preventDefault();
           toggleModal();
-          // document.location = "js://webview?arg1=111&args2=222";
         }}
         disabled={!isValidate}
       >

@@ -7,6 +7,11 @@ const resources = {
   ar: {
     translation: {
       "welcome to": "مرحـبـا بـك",
+      "Are you sure ?": "هل انت متأكد؟",
+      Pay: "دفع",
+      SDG: "جنية سوداني",
+      Confirm: "تأكيد",
+      Cancel: "إلغاء",
     },
   },
 };

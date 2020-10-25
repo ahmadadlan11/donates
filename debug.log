@@ -1,0 +1,4 @@
+[1025/021214.945:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1025/022214.945:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1025/022214.945:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Ahmed\AppData\Local\Temp\.profile\Crashpad\reports\f248b408-a5da-41c5-abb8-400105e344f4.dmp: The system cannot find the file specified. (0x2)
+[1025/022214.946:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

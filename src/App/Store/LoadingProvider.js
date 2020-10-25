@@ -1,14 +1,16 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState, useMemo } from "react";
 export const LoadingContext = createContext();
 const LoadingProvider = ({ children }) => {
-  const [loading, setLoading] = useState(false);
-  const toggleLoading = () => {
-    setLoading(!loading);
-  };
+  const [isLoading, setIsLoading] = useState(false);
+  const value = useMemo(
+    () => ({
+      isLoading,
+      setIsLoading,
+    }),
+    [isLoading]
+  );
   return (
-    <LoadingContext.Provider value={[loading, setLoading]}>
-      {children}
-    </LoadingContext.Provider>
+    <LoadingContext.Provider value={value}>{children}</LoadingContext.Provider>
   );
 };
 

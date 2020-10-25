@@ -5,7 +5,6 @@ const CustomInput = ({
   icon,
   placeholder,
   returndValue,
-  // validation,
   maxLength,
   minLength,
   type = "text",

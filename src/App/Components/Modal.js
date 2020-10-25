@@ -2,9 +2,11 @@ import React, { useContext } from "react";
 import { alert } from "../assets/icons";
 import { ModalContext } from "../Store/ModalProvider";
 import qs from "query-string";
+import { LanguageContext } from "../Store/LanguageProvider";
 
 const Modal = () => {
   const [isModalOpen, toggleModal, isConfirmed] = useContext(ModalContext);
+  const [, , t] = useContext(LanguageContext);
 
   const params = qs.parse(window.location.search);
 
@@ -29,29 +31,30 @@ const Modal = () => {
         </div>
         <div className="w-full h-64 bg-white rounded-md shadow-lg px-10 py-10 flex flex-col justify-between items-center ">
           <div className="font-semibold text-2xl text-gray-600">
-            Are you sure ?
+            {t("Are you sure ?")}
           </div>
           <div className="text-gray-500 text whitespace-pre-line">
-            Pay {"  "}
+            {t("Pay")} {"  "}
             <span className="text-lg font-bold text-oranges-deeper">
               {"  "}
               {params.amount}
               {"  "}
             </span>
-            {"  "}SDG
+            {"  "}
+            {t("SDG")}
           </div>
           <div className="flex justify-between w-full">
             <button
               onClick={() => toggleModal()}
               className="bg-gray-500 w-24 h-10 rounded-md shadow-sm text-white font-semibold "
             >
-              Cancel
+              {t("Cancel")}
             </button>
             <button
               onClick={() => isConfirmed()}
               className="bg-green-500 w-24 h-10 rounded-md shadow-sm text-white font-semibold "
             >
-              Confirm
+              {t("Confirm")}
             </button>
           </div>
         </div>
