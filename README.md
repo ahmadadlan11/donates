@@ -17,7 +17,7 @@
 
 This application is build on top of [NOEBS](https://github.com/adonese/noebs/) to aprovide simple and clean payment subsystem for developers in sudan.
 
-## 	ℹ️ What is noebs web portal
+##  ℹ️ What is noebs web portal
 
 A generic web view payment interface. Very secure, simple and easy to use, i18n and support for Ar/En and powered by noebs.
 
@@ -30,16 +30,19 @@ A generic web view payment interface. Very secure, simple and easy to use, i18n 
 
 ## 🏁 Getting Started
 
-How donates work, and how it is connected to noebs. Ideally it should describes the workflow and the requirement needed so as to have a in-app purchasing experience, this should be:
+To have a in-app purchasing experience, there are two requirment needed:
 
-- Account creation (webpage in Solus to create a `namespace` account)
+- Create Solus account [here](https://google.com) thats generate subdomain (ie. yourname.soluspay.net)
+
+- Create billerId by fill [THIS](https://google.com) and send it to ``` adonese@soluspay.net ```
+
 - Manual interference? In this step the user must generate a bank account to be linked to the system (it is also called `billerId`)
 - Result page:
 	- Generic result page (ie. result.soluspay.net, so their customers can get the result)
 	- We can host the page in our system (make an api to our dns to generate a new subdomain for them; ahmed-result.soluspay.net)
 	- external url
 	- and others
-    
+
  ```
  result.soluspay.net/id= & token= & amount =
  ```
