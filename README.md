@@ -23,33 +23,54 @@ A generic web view payment interface. Very secure, simple and easy to use, i18n 
 
 ## 📦 Features
 
-- :100: Customizable
-- :100: Secure
-- Reliability
+- :performing_arts: Customizable
+- :beginner: Secure
+- :100: Reliability
 - Support multi languages Arabic,English
 
 ## 🏁 Getting Started
 
 To have a in-app purchasing experience, there are two requirment needed:
 
-- Create Solus account [here](https://google.com) thats generate subdomain (ie. yourname.soluspay.net)
+- Create a Solus account [here](https://google.com)
 
-- Create billerId by fill [THIS](https://google.com) and send it to ``` adonese@soluspay.net ```
+- Create billerId by fill [THIS](https://github.com/ahmadadlan11/noebs-web-portal/blob/master/.github/Biller%20registration%20%20form.docx) and send it to ``` adonese@soluspay.net ```
 
-- Manual interference? In this step the user must generate a bank account to be linked to the system (it is also called `billerId`)
-- Result page:
-	- Generic result page (ie. result.soluspay.net, so their customers can get the result)
-	- We can host the page in our system (make an api to our dns to generate a new subdomain for them; ahmed-result.soluspay.net)
-	- external url
-	- and others
+##### We can host the page in our system (ie. yourname.soluspay.net) without extra fees
 
+
+## :wrench: How its work
+
+example of final url
+ ```json
+ yourname.soluspay.net/?id={id}&amount={amount}
  ```
- result.soluspay.net/id= & token= & amount =
- ```
- id is
- token is
- amount is
+ 
+```diff
+- id -> username of soluspay account
+- amount -> the required amount
+```
 
+## :rainbow: Customization
+
+Color scheme in **NOEBS web portal** is primary driven from **LOGO** colors.
+
+```js
+//tailwind.config.js
+
+      colors: {
+        background: "#F6F6F6",
+        oranges: {
+          light: "#EEAC5A",
+          deep: "#e54a1f",
+          deeper: "#E70E02",
+        },
+      },
+      
+```
+
+
+Our color schemes is driven from **LOGO**
 
 ## How to use
 
