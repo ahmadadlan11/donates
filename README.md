@@ -43,12 +43,19 @@ To have a in-app purchasing experience, there are two requirment needed:
 
 example of final url
  ```json
- yourname.soluspay.net/?id={id}&amount={amount}
+ yourname.soluspay.net/yourname?id={id}&amount={amount}
  ```
  
+ parameters description:
+ 
 ```diff
-- id -> username of soluspay account
-- amount -> the required amount
++ yourname -> required ,determine the namespace (usename of Solus account)
+
+! id -> optinal , transaction ID for 
+
++ token -> required , transaction ID 
+
+- amount -> required , the required amount SDG
 ```
 
 ## :rainbow: Customization
@@ -60,34 +67,21 @@ Color scheme in **NOEBS web portal** is primary driven from **LOGO** colors.
 
       colors: {
         background: "#F6F6F6",
-        oranges: {
-          light: "#EEAC5A",
-          deep: "#e54a1f",
-          deeper: "#E70E02",
-        },
+        primary: "#E70E02",
+        secondary: "#EEAC5A",
+        deepOrange: "#E54A1F",
       },
       
 ```
+**primary** is the dominant color.
 
-
-Our color schemes is driven from **LOGO**
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+1- Download the repo [or clone the repo](https://github.com/ahmadadlan11/noebs-web-portal):
 
+2- Install it and run:
 ```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/create-react-app
-cd create-react-app
+npm i
+npm run start
 ```
-
-Install it and run:
-
-```sh
-npm install
-npm start
-```
-
-## The idea behind the example
-
-This example demonstrates how you can use [Create React App](https://github.com/facebookincubator/create-react-app).
