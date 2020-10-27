@@ -15,7 +15,7 @@
 
 </div>
 
-This application is build on top of [NOEBS](https://github.com/adonese/noebs/) to aprovide simple and clean payment subsystem for developers in sudan.
+This application is build on top of [NOEBS](https://github.com/adonese/noebs/) to provide simple and clean payment subsystem for developers in sudan.
 
 ##  ℹ️ What is noebs web portal
 
@@ -49,13 +49,13 @@ example of final url
  parameters description:
  
 ```diff
-+ yourname -> required ,determine the namespace (usename of Solus account)
++ yourname -> required ,determine the namespace (username of Solus account)
 
-! id -> optinal , transaction ID for 
+! id -> optinal , transaction ID for developer use. 
 
-+ token -> required , transaction ID 
++ token -> required ,transaction ID for our use.
 
-- amount -> required , the required amount SDG
++ amount -> required , the required amount SDG.
 ```
 
 ## :rainbow: Customization
