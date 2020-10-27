@@ -5,7 +5,7 @@
   "scripts": {
     "prestart": "postcss src/App/style/tailwind.css -o src/App/style/App.css",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run prestart && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
