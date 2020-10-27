@@ -10,9 +10,9 @@ const Form = () => {
 
   const { key, handleSubmit } = useApi();
 
-  const [PAN, setPAN] = useState("1231231231231231231");
-  const [PIN, setPIN] = useState("123123");
-  const [expDate, setexpDate] = useState("123123");
+  const [PAN, setPAN] = useState("");
+  const [PIN, setPIN] = useState("");
+  const [expDate, setexpDate] = useState("");
 
   const params = qs.parse(window.location.search);
 
@@ -54,7 +54,7 @@ const Form = () => {
       <button
         type="submit"
         className={`transition duration-500 w-64 ${
-          (isValidate && "bg-oranges-deeper") || "bg-gray-500"
+          (isValidate && "bg-primary") || "bg-gray-500"
         }   h-12 rounded-lg  text-white flex items-center justify-center font-semibold
         hover:shadow-lg`}
         onClick={(e) => {

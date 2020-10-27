@@ -13,7 +13,7 @@ const Modal = () => {
   return (
     <>
       <div
-        className={`transition-opacity duration-1000 absolute w-screen h-screen bg-oranges-light bg-opacity-25 z-30 flex justify-center items-center ${
+        className={`transition-opacity duration-1000 absolute w-screen h-screen bg-secondary bg-opacity-25 z-30 flex justify-center items-center ${
           isModalOpen ? "visible opacity-100" : "invisible opacity-0"
         }`}
         onClick={() => toggleModal()}
@@ -24,7 +24,7 @@ const Modal = () => {
       `}
       >
         <div
-          className="w-20 h-20 bg-oranges-light absolute transform -translate-y-12 inset-x-0 mx-auto rounded-full shadow-lg
+          className="w-20 h-20 bg-secondary absolute transform -translate-y-12 inset-x-0 mx-auto rounded-full shadow-lg
           flex justify-center items-center"
         >
           {alert}
@@ -35,7 +35,7 @@ const Modal = () => {
           </div>
           <div className="text-gray-500 text whitespace-pre-line">
             {t("Pay")} {"  "}
-            <span className="text-lg font-bold text-oranges-deeper">
+            <span className="text-lg font-bold text-primary">
               {"  "}
               {params.amount}
               {"  "}
