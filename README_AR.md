@@ -7,7 +7,7 @@
     <a href="https://soluspay.net">
       <img alt="NOEBS web portal" width="400" src=".github/NOEBS web portal.png">
     </a><br>
-    أسرع طريقة لإضافة الدفع إلى تطبيقك.
+    .أسرع طريقة لإضافة الدفع إلى تطبيقك
 </p>
 
 🚀 [مشاهدة](https://vercel.com/)
@@ -20,19 +20,17 @@
 
 </div>
 
-This application is build on top of [NOEBS](https://github.com/adonese/noebs/) to provide simple and clean payment subsystem for developers in sudan.
-هذا التطبيق مبني على [NOEBS](https://github.com/adonese/noebs/) لتوفير طريقة دفع سهله و نظيفة للمبرمجين في السودان.
+.لتوفير نظام دفع سهل ونظيف للمبرمجين في السودان [NOEBS](https://github.com/adonese/noebs/) هذا التطبيق مبني على 
 
-## ℹ️ What is noebs web portal
+## ℹ️ noebs web portal ماهو 
+ . صفحة ويب محمية جيدا , سهلة الإستخدام , تدعم اللغة الإنجليزية و العربية
 
-A generic web view payment interface. Very secure, simple and easy to use, i18n and support for Ar/En and powered by noebs.
+## 📦 الخصائص
 
-## 📦 Features
-
-- :performing_arts: Customizable
-- :beginner: Secure
-- :100: Reliability
-- Support multi languages Arabic,English
+- :performing_arts: سهل التعديل
+- :beginner: الحماية
+- :100: الإعتمادية
+- يعدم عدة لغات الإنجليزية و العربية
 
 ## 🏁 Getting Started
 
