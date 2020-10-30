@@ -34,11 +34,12 @@
 
 ## 🏁 Getting Started
 
-To have a in-app purchasing experience, there are two requirment needed:
+: للحصول على تجربة دفع من داخل التطبيق يجب إستيفاء مطلبين
 
-- Create a Solus account [here](https://google.com)
+- [من هنا](https://google.com) soulspay إنشاء حساب
 
 - Create billerId by fill [THIS](https://github.com/ahmadadlan11/noebs-web-portal/blob/master/.github/Biller%20registration%20%20form.docx) and send it to `adonese@soluspay.net`
+
 
 ##### We can host the page in our system (ie. yourname.soluspay.net) without extra fees
 
