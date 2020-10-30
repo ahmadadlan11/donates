@@ -38,8 +38,10 @@
 
 - [من هنا](https://google.com) soulspay إنشاء حساب
 
-- Create billerId by fill [THIS](https://github.com/ahmadadlan11/noebs-web-portal/blob/master/.github/Biller%20registration%20%20form.docx) and send it to `adonese@soluspay.net`
+-  [هنا](https://github.com/ahmadadlan11/noebs-web-portal/blob/master/.github/Biller%20registration%20%20form.docx) من خلال ملئ الفورم  biller ID
+إنشاء
 
+`adonese@soluspay.net` وإرسالة إلى 
 
 ##### We can host the page in our system (ie. yourname.soluspay.net) without extra fees
 
