@@ -50,7 +50,7 @@ biller ID is the link between your bank account and EBS.
 example of final url
 
 ```json
-https://api.soluspay.net/api/v1/payment/{activity_name}?id={id}&amount={amount}
+https://pay.noebs.dev/{activity_name}?id={id}&amount={amount}
 ```
 
 parameters description:
