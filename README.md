@@ -35,13 +35,15 @@ A generic web view payment interface. Very secure, simple and easy to use, i18n 
 
 ## 🏁 Getting Started
 
-To have a in-app purchasing experience, there are two requirment needed:
+To have a in-app purchasing experience, you **MUST** send a message to `adonese@soluspay.net` that containing :
+- activity name (eg. store name , business name etc.. )
 
-- Create a Solus account [here](https://google.com)
+- Create biller ID by fill [THIS](https://github.com/ahmadadlan11/noebs-web-portal/raw/master/.github/Biller%20registration%20%20form.docx) and send it to `adonese@soluspay.net`
 
-- Create billerId by fill [THIS](https://github.com/ahmadadlan11/noebs-web-portal/blob/master/.github/Biller%20registration%20%20form.docx) and send it to `adonese@soluspay.net`
+biller ID is the link between your bank account and EBS.
 
-##### We can host the page in our system (ie. yourname.soluspay.net) without extra fees
+
+##### We can host the page in our system (ie. yourname.soluspay.net)
 
 ## :wrench: How its work
 
@@ -61,6 +63,8 @@ parameters description:
 + token -> required ,transaction ID for our use.
 
 + amount -> required , the required amount SDG.
+
+
 ```
 
 ## :rainbow: Customization
