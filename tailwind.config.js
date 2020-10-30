@@ -3,16 +3,17 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: {
+    enabled: true,
+    content: ["./src/**/*.js"],
+  },
   theme: {
     extend: {
       colors: {
         background: "#F6F6F6",
-        oranges: {
-          light: "#EEAC5A",
-          deep: "#e54a1f",
-          deeper: "#E70E02",
-        },
+        primary: "#E70E02",
+        secondary: "#EEAC5A",
+        deepOrange: "#e54a1f",
       },
     },
   },

@@ -14,9 +14,9 @@ const Home = () => {
               {t("welcome to")}
             </div>
             <div className="tracking-widest text-3xl font-bold uppercase">
-              <span className="text-oranges-light">sol</span>
-              <span className="text-oranges-deep">us</span>
-              <span className="text-oranges-deeper">pay</span>
+              <span className="text-secondary">sol</span>
+              <span className="text-deepOrange">us</span>
+              <span className="text-primary">pay</span>
             </div>
             <p className="font-thin text-black text-lg text-center lg:hidden">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea omnis
@@ -25,7 +25,7 @@ const Home = () => {
             <Form />
           </div>
         </div>
-        <div className="bg-oranges-deep bg-opacity-75 w-2/3 rounded-r-lg  flex-col items-center py-10 gap-10 px-10 hidden lg:flex">
+        <div className="bg-deepOrange bg-opacity-75 w-2/3 rounded-r-lg  flex-col items-center py-10 gap-10 px-10 hidden lg:flex">
           {LOGO}
           <p className="font-semibold text-white text-lg">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea omnis

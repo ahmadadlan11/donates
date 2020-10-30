@@ -1,16 +1,16 @@
 <p align="right">
     <a href="https://soluspay.net">
-      العربية
+      English
     </a>
 </p>
 <p align="center">
     <a href="https://soluspay.net">
       <img alt="NOEBS web portal" width="400" src=".github/NOEBS web portal.png">
     </a><br>
-    Fastest way to add payment in your App.
+    .أسرع طريقة لإضافة الدفع إلى تطبيقك
 </p>
 
-🚀 [See it live](https://vercel.com/)
+🚀 [مشاهدة](https://vercel.com/)
 
 <div align="center">
 
@@ -20,37 +20,37 @@
 
 </div>
 
-This application is build on top of [NOEBS](https://github.com/adonese/noebs/) to provide simple and clean payment subsystem for developers in sudan.
+.لتوفير نظام دفع سهل ونظيف للمبرمجين في السودان [NOEBS](https://github.com/adonese/noebs/) هذا التطبيق مبني على 
 
-## ℹ️ What is noebs web portal
+## ℹ️ noebs web portal ماهو 
+ . صفحة ويب محمية جيدا , سهلة الإستخدام , تدعم اللغة الإنجليزية و العربية
 
-A generic web view payment interface. Very secure, simple and easy to use, i18n and support for Ar/En and powered by noebs.
+## 📦 الخصائص
 
-## 📦 Features
-
-- :performing_arts: Customizable
-- :beginner: Secure
-- :100: Reliability
-- Support multi languages Arabic,English
+- :performing_arts: سهل التعديل
+- :beginner: الحماية
+- :100: الإعتمادية
+- يعدم عدة لغات الإنجليزية و العربية
 
 ## 🏁 Getting Started
 
-To have a in-app purchasing experience, you **MUST** send a message to `adonese@soluspay.net` that containing :
-- activity name (eg. store name , business name etc.. )
+: للحصول على تجربة دفع من داخل التطبيق يجب إستيفاء مطلبين
 
-- Create biller ID by fill [THIS](https://github.com/ahmadadlan11/noebs-web-portal/raw/master/.github/Biller%20registration%20%20form.docx) and send it to `adonese@soluspay.net`
+- [من هنا](https://google.com) soulspay إنشاء حساب
 
-biller ID is the link between your bank account and EBS.
+-  [هنا](https://github.com/ahmadadlan11/noebs-web-portal/blob/master/.github/Biller%20registration%20%20form.docx) من خلال ملئ الفورم  biller ID
+إنشاء
 
+`adonese@soluspay.net` وإرسالة إلى 
 
-##### We can host the page in our system (ie. yourname.soluspay.net)
+##### We can host the page in our system (ie. yourname.soluspay.net) without extra fees
 
 ## :wrench: How its work
 
 example of final url
 
 ```json
-https://api.soluspay.net/api/v1/payment/{activity_name}?id={id}&amount={amount}
+yourname.soluspay.net/yourname?id={id}&amount={amount}
 ```
 
 parameters description:
@@ -63,8 +63,6 @@ parameters description:
 + token -> required ,transaction ID for our use.
 
 + amount -> required , the required amount SDG.
-
-
 ```
 
 ## :rainbow: Customization
