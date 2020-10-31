@@ -10,7 +10,7 @@ const Modal = () => {
 
   const params = {
     ...qs.parse(window.location.search),
-    pathname: window.location.pathname.slice(1, -1),
+    pathname: window.location.pathname.slice(1), // this is wrong
   };
 
   return (
