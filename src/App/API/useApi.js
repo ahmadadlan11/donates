@@ -5,11 +5,13 @@ import qs from "query-string";
 
 import { ErrorContext } from "../Store/ErrorProvider";
 import { LoadingContext } from "../Store/LoadingProvider";
+import { LanguageContext } from "../Store/LanguageProvider";
 
 const useApi = () => {
   const [key, setKey] = useState();
-  const [, toggleError] = useContext(ErrorContext);
+  const { toggleError } = useContext(ErrorContext);
   const { setIsLoading } = useContext(LoadingContext);
+  const { t } = useContext(LanguageContext);
 
   const getKey = async () => {
     let results;
@@ -33,6 +35,30 @@ const useApi = () => {
       toggleError(body.details.responseMessage, "error");
     } else setKey(body.ebs_response.pubKeyValue);
   };
+
+  const getToken = async () => {
+    let results;
+    try {
+      results = await fetch("https://api.soluspay.net/api/v1/payment_token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          applicationId: "ACTSCon",
+          UUID: v4(),
+          tranDateTime: "191230142400",
+        }),
+      });
+    } catch (error) {
+      toggleError("try again later");
+    }
+    const body = await results.json();
+    if (!results.ok) {
+      toggleError(body.details.responseMessage, "error");
+    } else return { token: body.result.id };
+  };
+
   useEffect(() => {
     getKey();
   }, []);
@@ -40,13 +66,13 @@ const useApi = () => {
   const handleSubmit = async ({ params, PAN, PIN, expDate }) => {
     setIsLoading(true);
     const { IPIN, id } = generateIPin(PIN, key);
+    const { token } = await getToken();
     let results;
     try {
       results = await fetch(
-        `https://beta.soluspay.net/api/v1/payment/sahil?id=${params.id}&token=${params.token}`,
+        `https://api.soluspay.net/api/v1/payment/${params.pathname}/?id=${params.id}&token=${token}&amount=${params.amount}&json=true`,
         {
           method: "POST",
-          redirect: "follow",
           headers: {
             "Content-Type": "application/json",
           },
@@ -60,19 +86,19 @@ const useApi = () => {
             tranAmount: parseFloat(params.amount),
             serviceProviderId: "0010060207",
             tranCurrencyCode: "SDG",
-            id: params.id,
+            // id: params.id, for later use
           }),
         }
       );
     } catch (error) {
       toggleError("try again later", "error");
     }
-    setIsLoading(false);
-    const error = qs.parse(results.url.split("?")[1]);
 
-    if (error.fail) {
-      toggleError(error.code, "error");
-    } else toggleError("i think its success", "success");
+    setIsLoading(false);
+
+    if (!results.ok) {
+      toggleError(t(`error.${results.status.toString()}`), "error");
+    } else toggleError("Payment was successful", "success");
   };
 
   return { key, handleSubmit };
@@ -85,5 +111,4 @@ const generateIPin = (pin, key) => {
   const IPIN = jsencrypt.encrypt(id + pin);
   return { IPIN, id };
 };
-
 export default useApi;

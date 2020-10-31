@@ -4,7 +4,7 @@ import Form from "../Components/Form";
 import { LanguageContext } from "../Store/LanguageProvider";
 
 const Home = () => {
-  const [, , t] = useContext(LanguageContext);
+  const { t } = useContext(LanguageContext);
   return (
     <div className="lg:w-2/3 w-1/3">
       <div className="bg-white lg:shadow-lg flex lg:justify-between lg:w-auto justify-center rounded-lg  z-0 relative">
@@ -19,8 +19,7 @@ const Home = () => {
               <span className="text-primary">pay</span>
             </div>
             <p className="font-thin text-black text-lg text-center lg:hidden">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea omnis
-              temporibus fuga
+              {t("shortDescription")}
             </p>
             <Form />
           </div>
@@ -28,10 +27,7 @@ const Home = () => {
         <div className="bg-deepOrange bg-opacity-75 w-2/3 rounded-r-lg  flex-col items-center py-10 gap-10 px-10 hidden lg:flex">
           {LOGO}
           <p className="font-semibold text-white text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea omnis
-            temporibus fuga suscipit sed accusamus nobis totam debitis, dolorem
-            possimus dicta nemo deserunt,
-            <br /> excepturi vero, neque quibusdam error dolore sunt?
+            {t("longDescription")}
           </p>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { ErrorContext } from "../Store/ErrorProvider";
+import { LanguageContext } from "../Store/LanguageProvider";
 
 const CustomInput = ({
   icon,
@@ -12,7 +13,8 @@ const CustomInput = ({
   name,
 }) => {
   const [value, setValue] = useState("");
-  const [, toggleError] = useContext(ErrorContext);
+  const { toggleError } = useContext(ErrorContext);
+  const { t } = useContext(LanguageContext);
   const [error, setError] = useState(false);
   const setValueFuction = (value) => {
     setValue(value);
@@ -67,7 +69,7 @@ const CustomInput = ({
         />
       </div>
       <span className="text-red-600 font-semibold">
-        {error && "PAN should be 16 or 19 digits"}
+        {error && t("PAN should be 16 or 19 digits")}
       </span>
     </div>
   );

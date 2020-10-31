@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { ErrorContext } from "../Store/ErrorProvider";
 
 const Errors = () => {
-  const [error] = useContext(ErrorContext);
+  const { error } = useContext(ErrorContext);
   const errorColors = () => {
     switch (error.type) {
       case "error":

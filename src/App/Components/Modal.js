@@ -5,10 +5,13 @@ import qs from "query-string";
 import { LanguageContext } from "../Store/LanguageProvider";
 
 const Modal = () => {
-  const [isModalOpen, toggleModal, isConfirmed] = useContext(ModalContext);
-  const [, , t] = useContext(LanguageContext);
+  const { isModalOpen, toggleModal, isConfirmed } = useContext(ModalContext);
+  const { t } = useContext(LanguageContext);
 
-  const params = qs.parse(window.location.search);
+  const params = {
+    ...qs.parse(window.location.search),
+    pathname: window.location.pathname.slice(1, -1),
+  };
 
   return (
     <>
@@ -42,6 +45,13 @@ const Modal = () => {
             </span>
             {"  "}
             {t("SDG")}
+            {"  "}
+            {t("To")}
+            <span className="text-lg font-bold text-primary">
+              {"  "}
+              {params.pathname}
+              {"  "}
+            </span>
           </div>
           <div className="flex justify-between w-full">
             <button

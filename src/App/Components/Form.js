@@ -4,17 +4,20 @@ import CustomInput from "./input";
 import qs from "query-string";
 import useApi from "../API/useApi";
 import { ModalContext } from "../Store/ModalProvider";
+import { LanguageContext } from "../Store/LanguageProvider";
 
 const Form = () => {
-  const [, toggleModal, , action] = useContext(ModalContext);
-
+  const { toggleModal, action } = useContext(ModalContext);
+  const { t } = useContext(LanguageContext);
   const { key, handleSubmit } = useApi();
 
   const [PAN, setPAN] = useState("");
   const [PIN, setPIN] = useState("");
   const [expDate, setexpDate] = useState("");
-
-  const params = qs.parse(window.location.search);
+  const params = {
+    ...qs.parse(window.location.search),
+    pathname: window.location.pathname.slice(1, -1),
+  };
 
   let isValidate = key && PAN && PIN && expDate && true;
 
@@ -29,7 +32,7 @@ const Form = () => {
         maxLength={19}
         minLength={16}
         name="pan"
-        placeholder="PAN"
+        placeholder={t("PAN")}
         returndValue={(value) => setPAN(value)}
       />
 
@@ -38,14 +41,14 @@ const Form = () => {
         maxLength={4}
         name="password"
         type="password"
-        placeholder="PIN"
+        placeholder={t("PIN")}
         name="pin"
         returndValue={(value) => setPIN(value)}
       />
 
       <CustomInput
         icon={calender}
-        placeholder="Expire Date"
+        placeholder={t("Expire Date")}
         calander
         maxLength="7"
         name="date"
@@ -63,7 +66,7 @@ const Form = () => {
         }}
         disabled={!isValidate}
       >
-        {(key && "Submit") || loadingState()}
+        {(key && t("Submit")) || loadingState()}
       </button>
     </form>
   );
