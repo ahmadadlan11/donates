@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useMemo, useState } from "react";
 export const ErrorContext = createContext();
 
 const ErrorProvider = ({ children }) => {
@@ -13,10 +13,15 @@ const ErrorProvider = ({ children }) => {
       setError({ error: false });
     }, 5000);
   };
+  const values = useMemo(
+    () => ({
+      error,
+      toggleError,
+    }),
+    [error]
+  );
   return (
-    <ErrorContext.Provider value={[error, toggleError]}>
-      {children}
-    </ErrorContext.Provider>
+    <ErrorContext.Provider value={values}>{children}</ErrorContext.Provider>
   );
 };
 

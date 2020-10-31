@@ -1,4 +1,4 @@
-import React, { useState, createContext, useEffect } from "react";
+import React, { useState, createContext, useEffect, useMemo } from "react";
 export const ModalContext = createContext();
 
 const ModalProvider = ({ children }) => {
@@ -18,12 +18,18 @@ const ModalProvider = ({ children }) => {
     setAction(false);
   }, [action]);
 
+  const values = useMemo(
+    () => ({
+      isModalOpen,
+      toggleModal,
+      isConfirmed,
+      action,
+    }),
+    [isModalOpen]
+  );
+
   return (
-    <ModalContext.Provider
-      value={[isModalOpen, toggleModal, isConfirmed, action]}
-    >
-      {children}
-    </ModalContext.Provider>
+    <ModalContext.Provider value={values}>{children}</ModalContext.Provider>
   );
 };
 

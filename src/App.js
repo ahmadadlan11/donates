@@ -8,17 +8,22 @@ import { LanguageIcon } from "./App/assets/icons";
 import { LanguageContext } from "./App/Store/LanguageProvider";
 
 const App = () => {
-  const [language, toggleLanguage] = useContext(LanguageContext);
+  const { language, toggleLanguage } = useContext(LanguageContext);
   return (
     <div
       className="bg-background h-screen flex justify-center items-center"
       dir={language === "en" ? "ltr" : "rtl"}
     >
       <button
-        className="absolute top-0 right-0 m-8 z-30 flex items-center gap-4"
+        className="absolute top-0 right-0 m-8 z-30 flex flex-col items-center justify-center"
         onClick={() => toggleLanguage()}
       >
-        <LanguageIcon language={language} />
+        <div>
+          <LanguageIcon language={language} />
+        </div>
+        <div className="font-bold text-lg">
+          {language === "en" ? "English" : "عربي"}
+        </div>
       </button>
       {/* Show errors message */}
       <Errors />

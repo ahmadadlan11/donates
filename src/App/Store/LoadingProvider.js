@@ -2,7 +2,7 @@ import React, { createContext, useState, useMemo } from "react";
 export const LoadingContext = createContext();
 const LoadingProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(false);
-  const value = useMemo(
+  const values = useMemo(
     () => ({
       isLoading,
       setIsLoading,
@@ -10,7 +10,7 @@ const LoadingProvider = ({ children }) => {
     [isLoading]
   );
   return (
-    <LoadingContext.Provider value={value}>{children}</LoadingContext.Provider>
+    <LoadingContext.Provider value={values}>{children}</LoadingContext.Provider>
   );
 };
 
