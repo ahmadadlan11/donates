@@ -70,7 +70,7 @@ const useApi = () => {
     let results;
     try {
       results = await fetch(
-        `https://api.soluspay.net/api/v1/payment/${params.pathname}/?id=${params.id}&token=${token}&amount=${params.amount}&json=true`,
+        `https://api.soluspay.net/api/v1/payment/${params.pathname}?id=${params.id}&token=${token}&amount=${params.amount}&json=true`,
         {
           method: "POST",
           headers: {
