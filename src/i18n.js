@@ -46,6 +46,8 @@ const resources = {
         504: "لا يمكن الوصول إلى EBS",
       },
 
+      "Invalid input": "إدخال خاطئ",
+
       "Payment was successful": "تم الدفع بنجاح",
     },
   },
