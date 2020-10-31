@@ -50,20 +50,21 @@ biller ID is the link between your bank account and EBS.
 example of final url
 
 ```json
-https://pay.noebs.dev/{activity_name}?id={id}&amount={amount}
+https://pay.noebs.dev/{activity_name}?id={id}&amount={amount}&lang=ar
 ```
 
 parameters description:
 
 ```diff
-+ yourname -> required ,determine the namespace (username of Solus account)
++ activity_name -> required ,determine the namespace (username of Solus account)
 
-! id -> optinal , transaction ID for developer use.
++ id -> required , payment ID.
 
 + token -> required ,transaction ID for our use.
 
 + amount -> required , the required amount SDG.
 
+! lang -> page language defalut is english.
 
 ```
 
