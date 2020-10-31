@@ -32,7 +32,7 @@ const CustomInput = ({
 
   const validation = (value) => {
     if (isNaN(value) && !calander) {
-      toggleError("Invalid input", "warning");
+      toggleError(t("Invalid input"), "warning");
       return;
     } else setValueFuction(value);
 
@@ -43,7 +43,7 @@ const CustomInput = ({
     if (calander) {
       isNaN(value) &&
         value.length < 4 &&
-        toggleError("Invalid input", "warning");
+        toggleError(t("Invalid input"), "warning");
       value.length === 4
         ? setValueFuction(value + "/")
         : setValueFuction(value);

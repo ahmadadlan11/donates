@@ -32,7 +32,7 @@ const useApi = () => {
     }
     const body = await results.json();
     if (!results.ok) {
-      toggleError(body.details.responseMessage, "error");
+      toggleError(t(`error.${results.status.toString()}`), "error");
     } else setKey(body.ebs_response.pubKeyValue);
   };
 
@@ -55,7 +55,7 @@ const useApi = () => {
     }
     const body = await results.json();
     if (!results.ok) {
-      toggleError(body.details.responseMessage, "error");
+      toggleError(t(`error.${results.status.toString()}`), "error");
     } else return { token: body.result.id };
   };
 
