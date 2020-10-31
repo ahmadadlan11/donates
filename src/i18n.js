@@ -14,7 +14,7 @@ const resources = {
         400: "required fields are missing",
         500: "Server Error",
         502: "EBS Error",
-        502: "EBS unreachable",
+        504: "EBS unreachable",
       },
     },
   },
@@ -43,7 +43,7 @@ const resources = {
         400: "بعض الحقول المطلوبة مفقودة",
         500: "خطأ في الخادم",
         502: "خطأ في EBS",
-        502: "لا يمكن الوصول إلى EBS",
+        504: "لا يمكن الوصول إلى EBS",
       },
 
       "Payment was successful": "تم الدفع بنجاح",
