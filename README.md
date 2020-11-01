@@ -103,6 +103,13 @@ Color scheme in **NOEBS web portal** is primary driven from **LOGO** colors.
     │   ├── Store               # contexts centralization (context api) 
     ...
 
+### Complex integrations and multi-tenants system
+
+If your system supports multi-tenants, for example you are a store front and you want the fund to be transmitted to different destinations based on a custom ID you provide (a unique ID you generated in your system), Noebs can surely help you with this scenario out of the box.
+
+You can request this integration, by sending an email to: adonese@soluspay.net.
+
+
 ### Want to customize this page or self-host it
 
 1- Download the repo [or clone the repo](https://github.com/ahmadadlan11/noebs-web-portal):
