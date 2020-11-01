@@ -26,27 +26,39 @@ A generic web view payment interface. Very secure, simple and easy to use, i18n 
 - :performing_arts: Customizable
 - :beginner: Secure
 - :100: Reliability
-- Support multi languages Arabic,English
+- Support multi languages Arabic, English
 
 ## 🏁 Getting Started
 
-To have a in-app purchasing experience, you **MUST** send a message to `adonese@soluspay.net` that containing :
+To have a in-app purchasing experience, you **MUST** send a message to `adonese@soluspay.net` that contains:
+
 - activity name (eg. store name , business name etc.. )
 
-- Create biller ID by fill [THIS](https://github.com/ahmadadlan11/noebs-web-portal/raw/master/.github/Biller%20registration%20%20form.docx) and send it to `adonese@soluspay.net`
+- Fill in this document so we can create a biller ID for you. Biller ID is a unique identifer that you can use to accept payments. [You can fill the form here](https://github.com/ahmadadlan11/noebs-web-portal/raw/master/.github/Biller%20registration%20%20form.docx) and send it to `adonese@soluspay.net`
 
-biller ID is the link between your bank account and EBS.
+_a biller ID is the link between your bank account and EBS._
 
 
-## :wrench: How its work
+## :wrench: How it works
 
-example of final url
+
+- You request this service [via email](mailto:adonese@soluspay.net). Where you send us brief info about your business
+- The next step is quite important and it requires an interference from us (for the time being). You need to fill `biller form` document. It is an official document from CBOS to register `billers`, or service providers like you.
+- We create a new `namespace` for you (or simply: a username for you, you see we are not that great at naming things!)
+- Now, to accept payments, you simply redirect your users to this super awesome, super secure and simple payment page!
+- After the payment is done, a user will be notified by an SMS about the money deducted from them AND you will instantaneuosly receive the amount! Just that, simple and secure!
+
+- Hooks are supported: Do you have an endpoint in your server and you want to receive the payment result without needing to go to our server! You can do that. Request it at adonese@soluspay.net
+- Custom URLs are supported too: whether you want to host this page on your domain name, OR you want to use a subdomain (from our domain name), all that is supported!
+
+- Got any other requests? No worries, just ping us here, or send us an email and we can deliver it to you in no time!
+
 
 ```json
 https://pay.noebs.dev/{activity_name}?id={id}&amount={amount}&lang=ar
 ```
 
-parameters description:
+#### Parameters description
 
 ```diff
 + activity_name -> required ,determine the namespace (username of Solus account)
@@ -91,7 +103,7 @@ Color scheme in **NOEBS web portal** is primary driven from **LOGO** colors.
     │   ├── Store               # contexts centralization (context api) 
     ...
 
-## How to use
+### Want to customize this page or self-host it
 
 1- Download the repo [or clone the repo](https://github.com/ahmadadlan11/noebs-web-portal):
 
