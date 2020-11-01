@@ -26,7 +26,7 @@ const Form = () => {
   }, [action]);
 
   return (
-    <form className="flex items-center flex-col gap-4">
+    <form className="flex items-center flex-col">
       <CustomInput
         icon={user}
         maxLength={19}
@@ -56,7 +56,7 @@ const Form = () => {
       />
       <button
         type="submit"
-        className={`transition duration-500 w-64 ${
+        className={`mt-2 transition duration-500 w-64 ${
           (isValidate && "bg-primary") || "bg-gray-500"
         }   h-12 rounded-lg  text-white flex items-center justify-center font-semibold
         hover:shadow-lg`}

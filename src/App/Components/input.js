@@ -52,7 +52,7 @@ const CustomInput = ({
   return (
     <div className="">
       <div className="relative">
-        <span className="absolute inset-y-0 left-0 flex items-center pl-1">
+        <span className="absolute inset-y-0 left-0 flex items-center pl-1 pt-2">
           {icon}
         </span>
         <input
@@ -62,7 +62,7 @@ const CustomInput = ({
           minLength={minLength}
           type={type}
           id={placeholder}
-          className="border border-gray-500 rounded-lg px-10 w-64 h-10"
+          className="mt-2 border border-gray-500 rounded-lg px-10 w-64 h-10"
           placeholder={placeholder}
           onChange={(e) => validation(e.target.value)}
           value={value}
