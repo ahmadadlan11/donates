@@ -38,8 +38,6 @@ To have a in-app purchasing experience, you **MUST** send a message to `adonese@
 biller ID is the link between your bank account and EBS.
 
 
-##### We can host the page in our system (ie. yourname.soluspay.net)
-
 ## :wrench: How its work
 
 example of final url
