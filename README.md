@@ -1,8 +1,3 @@
-<p align="right">
-    <a href="https://soluspay.net">
-      العربية
-    </a>
-</p>
 <p align="center">
     <a href="https://soluspay.net">
       <img alt="NOEBS web portal" width="400" src=".github/NOEBS web portal.png">
@@ -10,7 +5,7 @@
     Fastest way to add payment in your App.
 </p>
 
-🚀 [See it live](https://vercel.com/)
+🚀 [See it live](https://pay.noebs.dev/noebs?id=noebs&amount=50)
 
 <div align="center">
 
@@ -43,8 +38,6 @@ To have a in-app purchasing experience, you **MUST** send a message to `adonese@
 biller ID is the link between your bank account and EBS.
 
 
-##### We can host the page in our system (ie. yourname.soluspay.net)
-
 ## :wrench: How its work
 
 example of final url
@@ -60,11 +53,9 @@ parameters description:
 
 + id -> required , payment ID.
 
-+ token -> required ,transaction ID for our use.
-
 + amount -> required , the required amount SDG.
 
-! lang -> page language defalut is english.
+! lang -> optional , page language defalut is english.
 
 ```
 
@@ -85,6 +76,20 @@ Color scheme in **NOEBS web portal** is primary driven from **LOGO** colors.
 ```
 
 **primary** is the dominant color.
+
+## :scroll: Project structre
+
+    src
+    ├── App.js                  # Main layout
+    ├── i18n.js                 # Localization (AR,EN)
+    ├── index.js                # Bundle
+    ├── App                     # Application files
+    │   ├── API                 # API calls hook
+    │   ├── assets              # Contain all svg used
+    │   ├── Components          # Individual components (abstract)
+    │   ├── Screens             # screens layout 
+    │   ├── Store               # contexts centralization (context api) 
+    ...
 
 ## How to use
 
