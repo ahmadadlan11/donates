@@ -13,7 +13,7 @@ const resources = {
       error: {
         400: "required fields are missing",
         500: "Server Error",
-        502: "EBS Error",
+        502: "Card is incorrect ",
         504: "EBS unreachable",
       },
     },
@@ -42,7 +42,7 @@ const resources = {
       error: {
         400: "بعض الحقول المطلوبة مفقودة",
         500: "خطأ في الخادم",
-        502: "خطأ في EBS",
+        502: "الطباقة غير صحيحة",
         504: "لا يمكن الوصول إلى EBS",
       },
 
