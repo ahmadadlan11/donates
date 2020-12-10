@@ -66,11 +66,10 @@ const useApi = () => {
   const handleSubmit = async ({ params, PAN, PIN, expDate }) => {
     setIsLoading(true);
     const { IPIN, id } = generateIPin(PIN, key);
-    const { token } = await getToken();
     let results;
     try {
       results = await fetch(
-        `https://api.soluspay.net/api/v1/payment/${params.pathname}?id=${params.id}&token=${token}&amount=${params.amount}&json=true`,
+        `https://api.soluspay.net/api/v1/payment/${params.pathname}?id=${params.id}&token=${params.token}&amount=${params.amount}&json=true`,
         {
           method: "POST",
           headers: {
