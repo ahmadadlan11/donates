@@ -6,6 +6,7 @@ import Loading from "./App/Components/Loading";
 import Modal from "./App/Components/Modal";
 import { LanguageIcon } from "./App/assets/icons";
 import { LanguageContext } from "./App/Store/LanguageProvider";
+import LOGO from "./App/assets/SOLUSPAY";
 
 const App = () => {
   const { language, toggleLanguage } = useContext(LanguageContext);
@@ -29,12 +30,16 @@ const App = () => {
       <Errors />
       {/* Show loading state */}
       <Loading />
+      {/* LOGO */}
       {/* BackGrounds images */}
       {upperCircle}
       {bottomCircle}
       {/* Home component */}
       <Modal />
-      <Home />
+      <div className="h-full flex flex-col justify-evenly items-center">
+        {LOGO}
+        <Home />
+      </div>
     </div>
   );
 };
