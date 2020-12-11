@@ -23,7 +23,7 @@ const resources = {
       longDescription:
         "Solus توفر احدث حلول الدفع الإلكتروني في السودان " +
         "ونوفر ايضا noebs وهو بوابة دفع مفتوحة المصدر.",
-      shortDescription: "Solus توفر احدث حلول الدفع الإلكتروني في السودان",
+      shortDescription: "Solus توفر احدث حلول الدفع الإلكتروني في السودان.",
 
       "welcome to": "مرحـبـا بـك",
       "Are you sure ?": "هل انت متأكد؟",

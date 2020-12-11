@@ -1,7 +1,7 @@
 import React from "react";
 
 export const upperCircle = (
-  <svg className="w-full h-full absolute inset-y-0 left-0 z-0 opacity-75">
+  <svg className="w-full h-full absolute inset-y-0 lg:right-0 right-32 z-0 opacity-75">
     <defs>
       <filter
         id="Subtraction_2"

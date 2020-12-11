@@ -14,6 +14,7 @@ module.exports = {
         primary: "#E70E02",
         secondary: "#EEAC5A",
         deepOrange: "#e54a1f",
+        border: "#E95363",
       },
     },
   },
