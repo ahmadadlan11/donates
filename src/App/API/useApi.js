@@ -39,7 +39,7 @@ const useApi = () => {
   const getToken = async () => {
     let results;
     try {
-      results = await fetch("https://api.soluspay.net/api/v1/payment_token", {
+      results = await fetch("https://beta.soluspay.net/api/v1/payment_token", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -67,9 +67,10 @@ const useApi = () => {
     setIsLoading(true);
     const { IPIN, id } = generateIPin(PIN, key);
     let results;
+    console.log(params.pathname);
     try {
       results = await fetch(
-        `https://api.soluspay.net/api/v1/payment/${params.pathname}?id=${params.id}&token=${params.token}&amount=${params.amount}&json=true`,
+        `https://api.soluspay.net/api/v1/payment/${params.biller}?id=${params.id}&token=${params.token}&amount=${params.amount}&json=true`,
         {
           method: "POST",
           headers: {
