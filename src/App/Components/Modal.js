@@ -49,7 +49,7 @@ const Modal = () => {
             {t("To")}
             <span className="text-lg font-bold text-primary">
               {"  "}
-              {params.pathname}
+              {params.biller}
               {"  "}
             </span>
           </div>

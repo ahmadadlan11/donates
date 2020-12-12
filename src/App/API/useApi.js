@@ -98,7 +98,10 @@ const useApi = () => {
 
     if (!results.ok) {
       toggleError(t(`error.${results.status.toString()}`), "error");
-    } else toggleError("Payment was successful", "success");
+    } else {
+      toggleError("Payment was successful", "success");
+      window.location.replace(params.to);
+    }
   };
 
   return { key, handleSubmit };
