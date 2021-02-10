@@ -70,7 +70,7 @@ const useApi = () => {
     console.log(params.pathname);
     try {
       results = await fetch(
-        `https://api.soluspay.net/api/v1/payment/${params.biller}?id=${params.id}&token=${params.token}&amount=${params.amount}&json=true`,
+        `https://beta.soluspay.net/api/v1/payment/${params.biller}?id=${params.id}&token=${params.token}&amount=${params.amount}&json=true`,
         {
           method: "POST",
           headers: {
@@ -92,15 +92,25 @@ const useApi = () => {
       );
     } catch (error) {
       toggleError("try again later", "error");
+      
     }
 
     setIsLoading(false);
 
     if (!results.ok) {
-      toggleError(t(`error.${results.status.toString()}`), "error");
+      let message;
+      if (results.status === 400) {
+        message = results.json().then(data => toggleError(`Error: ${data.message}`, "error"))
+      }else{
+        message = results.json().then(data => toggleError(`Payment Error: ${data.responseMessage}`, "error"))
+
+      }
+
+      
+      setTimeout(()=>window.location.replace(params.to || "/"), 5000);
     } else {
       toggleError("Payment was successful", "success");
-      window.location.replace(params.to);
+      setTimeout(()=>window.location.replace(params.to || "/"), 5000);
     }
   };
 

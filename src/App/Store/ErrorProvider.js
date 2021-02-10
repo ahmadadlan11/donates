@@ -11,7 +11,7 @@ const ErrorProvider = ({ children }) => {
     setError({ error: true, message, type });
     setTimeout(() => {
       setError({ error: false });
-    }, 5000);
+    }, 9000);
   };
   const values = useMemo(
     () => ({
